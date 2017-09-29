@@ -1,4 +1,4 @@
-use _055_OMS
+use test1;
 
 
 insert into Roles(RoleName) values('Administrator')

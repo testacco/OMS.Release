@@ -13,7 +13,23 @@
 		<org.springframework.roo-version>1.0.2.RELEASE</org.springframework.roo-version>
 		<org.aspectj-version>1.6.9</org.aspectj-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://192.168.103.179:8081/repository/maven-central</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://192.168.103.179:8081/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
@@ -266,6 +282,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
         			<version>2.1.1</version>
+<!--
 				<configuration>
 					<outputDirectory>target</outputDirectory>
 					<warName>oms</warName>
@@ -274,6 +291,7 @@
 							<directory>src/main/webapp</directory>
 						</resource>
 				</configuration>
+-->
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -367,7 +385,12 @@
     </configuration>
 </plugin>
 
-
+<!-- for nexus deploying-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>2.8.2</version>
+      </plugin>
 
 <plugin>
     <groupId>org.sonatype.maven.plugin</groupId>
@@ -400,12 +423,15 @@
 		<url>http://localhost:8080/manager/text</url>
 		<server>TomcatServer</server>
 		<path>/target</path>
+<!--
 		<update>true</update>
 		<username>admin</username>
-		<password>admin</password>
+		<password>1111</password>
+-->
 	</configuration>
 </plugin>
-						
+	
+				
 		</plugins>
 	</build>
 </project>

@@ -1,4 +1,4 @@
-use _055_DB;
+use test2;
 
 
 insert into Roles(RoleName) values('Administrator');

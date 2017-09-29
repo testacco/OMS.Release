@@ -1,4 +1,4 @@
-use _055_OMS
+use test1;
 
 delete from  OrderItems
 DBCC CHECKIDENT (OrderItems,RESEED, 0)
