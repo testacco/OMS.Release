@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Sep 29 13:47:05 EEST 2017 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Sep 29 19:30:48 EEST 2017 -->
 
 <report>
   <stats>
     <packages value="32"/>
     <classes value="123"/>
-    <methods value="1000"/>
+    <methods value="990"/>
     <srcfiles value="106"/>
-    <srclines value="3433"/>
+    <srclines value="3022"/>
   </stats>
   <data>
     <all name="all classes">
       <coverage type="class, %" value="33%  (41/123)"/>
-      <coverage type="method, %" value="28%  (281/1000)"/>
-      <coverage type="block, %" value="26%  (3727/14568)"/>
-      <coverage type="line, %" value="25%  (851.6/3433)"/>
+      <coverage type="method, %" value="28%  (279/990)"/>
+      <coverage type="block, %" value="26%  (3639/14146)"/>
+      <coverage type="line, %" value="25%  (770.1/3022)"/>
 
       <package name="com.softserveinc.edu.oms.domain">
         <coverage type="class, %" value="100% (1/1)"/>
@@ -44,8 +44,8 @@
       <package name="com.softserveinc.edu.oms.domain.entities">
         <coverage type="class, %" value="100% (10/10)"/>
         <coverage type="method, %" value="74%  (112/151)"/>
-        <coverage type="block, %" value="63%  (620/978)"/>
-        <coverage type="line, %" value="69%  (240/346)"/>
+        <coverage type="block, %" value="63%  (620/981)"/>
+        <coverage type="line, %" value="71%  (240/339)"/>
 
         <srcfile name="CreditCardType.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -278,13 +278,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="72%  (21/29)"/>
           <coverage type="block, %" value="46%  (72/157)"/>
-          <coverage type="line, %" value="50%  (30/60)"/>
+          <coverage type="line, %" value="51%  (30/59)"/>
 
           <class name="Order">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="72%  (21/29)"/>
             <coverage type="block, %" value="46%  (72/157)"/>
-            <coverage type="line, %" value="50%  (30/60)"/>
+            <coverage type="line, %" value="51%  (30/59)"/>
 
             <method name="Order (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -424,7 +424,7 @@
             <method name="transformOrderDateToStr (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/15)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="transformPreferableDeliveryDateToStr (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -436,19 +436,19 @@
         <srcfile name="OrderItem.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="90%  (18/20)"/>
-          <coverage type="block, %" value="75%  (144/191)"/>
-          <coverage type="line, %" value="90%  (52/58)"/>
+          <coverage type="block, %" value="75%  (144/192)"/>
+          <coverage type="line, %" value="93%  (52/56)"/>
 
           <class name="OrderItem">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="90%  (18/20)"/>
-            <coverage type="block, %" value="75%  (144/191)"/>
-            <coverage type="line, %" value="90%  (52/58)"/>
+            <coverage type="block, %" value="75%  (144/192)"/>
+            <coverage type="line, %" value="93%  (52/56)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="OrderItem (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -463,7 +463,7 @@
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (47/47)"/>
-              <coverage type="line, %" value="100% (13/13)"/>
+              <coverage type="line, %" value="100% (14/14)"/>
             </method>
             <method name="getCost (): Double">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -542,8 +542,8 @@
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/41)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/42)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
@@ -604,13 +604,13 @@
         <srcfile name="Product.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="93%  (14/15)"/>
-          <coverage type="block, %" value="87%  (136/157)"/>
+          <coverage type="block, %" value="86%  (136/158)"/>
           <coverage type="line, %" value="91%  (48/53)"/>
 
           <class name="Product">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="93%  (14/15)"/>
-            <coverage type="block, %" value="87%  (136/157)"/>
+            <coverage type="block, %" value="86%  (136/158)"/>
             <coverage type="line, %" value="91%  (48/53)"/>
 
             <method name="Product (): void">
@@ -685,7 +685,7 @@
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -806,14 +806,14 @@
         <srcfile name="User.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="80%  (20/25)"/>
-          <coverage type="block, %" value="53%  (87/163)"/>
-          <coverage type="line, %" value="69%  (34/49)"/>
+          <coverage type="block, %" value="53%  (87/164)"/>
+          <coverage type="line, %" value="76%  (34/45)"/>
 
           <class name="User">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="80%  (20/25)"/>
-            <coverage type="block, %" value="53%  (87/163)"/>
-            <coverage type="line, %" value="69%  (34/49)"/>
+            <coverage type="block, %" value="53%  (87/164)"/>
+            <coverage type="line, %" value="76%  (34/45)"/>
 
             <method name="User (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -937,8 +937,8 @@
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/56)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="block, %" value="0%   (0/57)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
@@ -946,20 +946,20 @@
       <package name="com.softserveinc.edu.oms.domain.utils">
         <coverage type="class, %" value="0%   (0/1)"/>
         <coverage type="method, %" value="0%   (0/4)"/>
-        <coverage type="block, %" value="0%   (0/268)"/>
-        <coverage type="line, %" value="0%   (0/76)"/>
+        <coverage type="block, %" value="0%   (0/270)"/>
+        <coverage type="line, %" value="0%   (0/64)"/>
 
         <srcfile name="CardValidator.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
-          <coverage type="block, %" value="0%   (0/268)"/>
-          <coverage type="line, %" value="0%   (0/76)"/>
+          <coverage type="block, %" value="0%   (0/270)"/>
+          <coverage type="line, %" value="0%   (0/64)"/>
 
           <class name="CardValidator">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
-            <coverage type="block, %" value="0%   (0/268)"/>
-            <coverage type="line, %" value="0%   (0/76)"/>
+            <coverage type="block, %" value="0%   (0/270)"/>
+            <coverage type="line, %" value="0%   (0/64)"/>
 
             <method name="CardValidator (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -968,13 +968,13 @@
             </method>
             <method name="isCardNumberValid (String): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/89)"/>
+              <coverage type="block, %" value="0%   (0/91)"/>
               <coverage type="line, %" value="0%   (0/18)"/>
             </method>
             <method name="isCardTypeValid (String, String): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/130)"/>
-              <coverage type="line, %" value="0%   (0/43)"/>
+              <coverage type="line, %" value="0%   (0/31)"/>
             </method>
             <method name="isExpireDateValid (String, String): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -988,19 +988,19 @@
         <coverage type="class, %" value="100% (2/2)"/>
         <coverage type="method, %" value="86%  (25/29)"/>
         <coverage type="block, %" value="74%  (403/542)"/>
-        <coverage type="line, %" value="74%  (98.7/133)"/>
+        <coverage type="line, %" value="75%  (97.7/130)"/>
 
         <srcfile name="HibernateDao.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (18/18)"/>
           <coverage type="block, %" value="97%  (260/267)"/>
-          <coverage type="line, %" value="96%  (67/70)"/>
+          <coverage type="line, %" value="96%  (68/71)"/>
 
           <class name="HibernateDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (18/18)"/>
             <coverage type="block, %" value="97%  (260/267)"/>
-            <coverage type="line, %" value="96%  (67/70)"/>
+            <coverage type="line, %" value="96%  (68/71)"/>
 
             <method name="HibernateDao (Class): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1015,7 +1015,7 @@
             <method name="addSortPropertiesToCriteria (SortProperties, Criteria): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (28/28)"/>
-              <coverage type="line, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
             </method>
             <method name="delete (AbstractEntity): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1098,13 +1098,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="64%  (7/11)"/>
           <coverage type="block, %" value="52%  (143/275)"/>
-          <coverage type="line, %" value="50%  (31.7/63)"/>
+          <coverage type="line, %" value="50%  (29.7/59)"/>
 
           <class name="HibernatePageableDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="64%  (7/11)"/>
             <coverage type="block, %" value="52%  (143/275)"/>
-            <coverage type="line, %" value="50%  (31.7/63)"/>
+            <coverage type="line, %" value="50%  (29.7/59)"/>
 
             <method name="HibernatePageableDao (Class): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1124,22 +1124,22 @@
             <method name="findByCriterions (Integer, Integer, Criterion []): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (9/9)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByCriterions (Integer, Integer, SortProperties, Criterion []): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="98%  (47/48)"/>
-              <coverage type="line, %" value="91%  (10/11)"/>
+              <coverage type="line, %" value="90%  (9/10)"/>
             </method>
             <method name="findByOneOfCriterions (Integer, Integer, Criterion []): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findByOneOfCriterions (Integer, Integer, SortProperties, Criterion []): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/54)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
             </method>
             <method name="getRowCountByCriterions (Criterion []): Long">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1166,9 +1166,9 @@
       </package>
       <package name="com.softserveinc.edu.oms.persistence.dao.concrete">
         <coverage type="class, %" value="100% (11/11)"/>
-        <coverage type="method, %" value="71%  (62/87)"/>
-        <coverage type="block, %" value="64%  (1260/1967)"/>
-        <coverage type="line, %" value="62%  (246.5/398)"/>
+        <coverage type="method, %" value="71%  (61/86)"/>
+        <coverage type="block, %" value="63%  (1215/1917)"/>
+        <coverage type="line, %" value="60%  (174.6/292)"/>
 
         <srcfile name="CreditCardTypeDao.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -1198,13 +1198,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (5/5)"/>
           <coverage type="block, %" value="100% (68/68)"/>
-          <coverage type="line, %" value="100% (30/30)"/>
+          <coverage type="line, %" value="100% (18/18)"/>
 
           <class name="CustomerTypeDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (5/5)"/>
             <coverage type="block, %" value="100% (68/68)"/>
-            <coverage type="line, %" value="100% (30/30)"/>
+            <coverage type="line, %" value="100% (18/18)"/>
 
             <method name="CustomerTypeDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1214,22 +1214,22 @@
             <method name="getGoldTypeDiscount (): CustomerType">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
             <method name="getPlatinumTypeDiscount (): CustomerType">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
             <method name="getSilverTypeDiscount (): CustomerType">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
             <method name="getStandartTypeDiscount (): CustomerType">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (7/7)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
             </method>
           </class>
         </srcfile>
@@ -1237,13 +1237,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (8/8)"/>
           <coverage type="block, %" value="95%  (126/132)"/>
-          <coverage type="line, %" value="99%  (26.7/27)"/>
+          <coverage type="line, %" value="98%  (15.7/16)"/>
 
           <class name="DimensionDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (8/8)"/>
             <coverage type="block, %" value="95%  (126/132)"/>
-            <coverage type="line, %" value="99%  (26.7/27)"/>
+            <coverage type="line, %" value="98%  (15.7/16)"/>
 
             <method name="DimensionDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1253,37 +1253,37 @@
             <method name="findDimensionByName (DimensionTypesEnum): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="findDimensionByName (String): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="findDimensionByNumberOfProducts (DimensionTypesEnum): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="findDimensionByNumberOfProducts (int): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="getBoxDimension (): Dimension">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="92%  (22/24)"/>
-              <coverage type="line, %" value="98%  (3.9/4)"/>
+              <coverage type="line, %" value="96%  (1.9/2)"/>
             </method>
             <method name="getItemDimension (): Dimension">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="92%  (22/24)"/>
-              <coverage type="line, %" value="98%  (3.9/4)"/>
+              <coverage type="line, %" value="96%  (1.9/2)"/>
             </method>
             <method name="getPackageDimension (): Dimension">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="92%  (22/24)"/>
-              <coverage type="line, %" value="98%  (3.9/4)"/>
+              <coverage type="line, %" value="96%  (1.9/2)"/>
             </method>
           </class>
         </srcfile>
@@ -1291,13 +1291,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="32%  (6/19)"/>
           <coverage type="block, %" value="14%  (71/505)"/>
-          <coverage type="line, %" value="11%  (14/122)"/>
+          <coverage type="line, %" value="11%  (11/99)"/>
 
           <class name="OrderDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="32%  (6/19)"/>
             <coverage type="block, %" value="14%  (71/505)"/>
-            <coverage type="line, %" value="11%  (14/122)"/>
+            <coverage type="line, %" value="11%  (11/99)"/>
 
             <method name="OrderDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1307,17 +1307,17 @@
             <method name="addFilter (Criteria, SearchFilterOptions): Criteria">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/45)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="addSearch (Criteria, SearchFilterOptions): Criteria">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/78)"/>
-              <coverage type="line, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="addSortPropertiesToCriteria (SortProperties, Criteria): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="29%  (20/68)"/>
-              <coverage type="line, %" value="25%  (5/20)"/>
+              <coverage type="line, %" value="36%  (5/14)"/>
             </method>
             <method name="countRowNumbers (SearchFilterOptions): long">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1337,12 +1337,12 @@
             <method name="createCriteriaForAssigneeLike (String): Criteria">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/19)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="createCriteriaForOrderStatusLike (String): Criteria">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
             </method>
             <method name="find (Integer, Integer, SortProperties, SearchFilterOptions): List">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1352,12 +1352,12 @@
             <method name="findByDeliveryDate (Date, SelectCondition): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByOrderDate (Date, SelectCondition): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByOrderNumber (Integer): Order">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1372,7 +1372,7 @@
             <method name="findByTotalPrice (double, SelectCondition): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findForAssigneeLike (Integer, Integer, SortProperties, String, Criterion): List">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1387,7 +1387,7 @@
             <method name="findOrderNumber (): Integer">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/11)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
             </method>
             <method name="setAliases (Criteria): Criteria">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1400,13 +1400,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (4/4)"/>
           <coverage type="block, %" value="100% (39/39)"/>
-          <coverage type="line, %" value="100% (6/6)"/>
+          <coverage type="line, %" value="100% (5/5)"/>
 
           <class name="OrderItemDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (4/4)"/>
             <coverage type="block, %" value="100% (39/39)"/>
-            <coverage type="line, %" value="100% (6/6)"/>
+            <coverage type="line, %" value="100% (5/5)"/>
 
             <method name="OrderItemDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1421,7 +1421,7 @@
             <method name="getOrderItemsFromOrder (Order, Integer, Integer): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="getRowCountFromOrder (Order): Long">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1434,13 +1434,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="67%  (2/3)"/>
           <coverage type="block, %" value="41%  (17/41)"/>
-          <coverage type="line, %" value="62%  (5/8)"/>
+          <coverage type="line, %" value="57%  (4/7)"/>
 
           <class name="OrderStatusDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="67%  (2/3)"/>
             <coverage type="block, %" value="41%  (17/41)"/>
-            <coverage type="line, %" value="62%  (5/8)"/>
+            <coverage type="line, %" value="57%  (4/7)"/>
 
             <method name="OrderStatusDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1450,7 +1450,7 @@
             <method name="findOrderStatusByName (String): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="getByName (String): OrderStatus">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1463,18 +1463,18 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="74%  (14/19)"/>
           <coverage type="block, %" value="67%  (213/319)"/>
-          <coverage type="line, %" value="67%  (35/52)"/>
+          <coverage type="line, %" value="75%  (15/20)"/>
 
           <class name="ProductDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="74%  (14/19)"/>
             <coverage type="block, %" value="67%  (213/319)"/>
-            <coverage type="line, %" value="67%  (35/52)"/>
+            <coverage type="line, %" value="75%  (15/20)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="ProductDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1484,72 +1484,72 @@
             <method name="containsProductByDescription (String): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="containsProductByName (String): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="countProductsByDescription (String): Long">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/22)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="countProductsByName (String): Long">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/22)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findAll (Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findByDescription (String): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (22/22)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByDescription (String, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/25)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findByDescription (String, SortProperties): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (23/23)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByName (String): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (22/22)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByName (String, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/25)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findByName (String, SortProperties): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (23/23)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByPrice (Double): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (15/15)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByPriceFromTo (Double, Double): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (16/16)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findByPriceFromTo (Double, Double, SortProperties): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (17/17)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="getRowCount (): Long">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1559,12 +1559,12 @@
             <method name="numberOfProductByDescription (String): int">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="numberOfProductByName (String): int">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -1572,13 +1572,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (2/2)"/>
           <coverage type="block, %" value="100% (22/22)"/>
-          <coverage type="line, %" value="100% (4/4)"/>
+          <coverage type="line, %" value="100% (3/3)"/>
 
           <class name="RegionDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
             <coverage type="block, %" value="100% (22/22)"/>
-            <coverage type="line, %" value="100% (4/4)"/>
+            <coverage type="line, %" value="100% (3/3)"/>
 
             <method name="RegionDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1588,7 +1588,7 @@
             <method name="findRegionByName (String): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -1596,13 +1596,13 @@
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="73%  (8/11)"/>
           <coverage type="block, %" value="75%  (167/223)"/>
-          <coverage type="line, %" value="76%  (35/46)"/>
+          <coverage type="line, %" value="79%  (34/43)"/>
 
           <class name="RoleDao">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="73%  (8/11)"/>
             <coverage type="block, %" value="75%  (167/223)"/>
-            <coverage type="line, %" value="76%  (35/46)"/>
+            <coverage type="line, %" value="79%  (34/43)"/>
 
             <method name="RoleDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1627,17 +1627,17 @@
             <method name="findByRoleName (String, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/14)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="findByRoleName (String, UserSelectWayCondition): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (14/14)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="findByRoleName (String, UserSelectWayCondition, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/15)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="getAdminRole (): Role">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1663,25 +1663,20 @@
         </srcfile>
         <srcfile name="UserDao.java">
           <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="86%  (12/14)"/>
-          <coverage type="block, %" value="89%  (533/596)"/>
-          <coverage type="line, %" value="89%  (88.8/100)"/>
+          <coverage type="method, %" value="85%  (11/13)"/>
+          <coverage type="block, %" value="89%  (488/546)"/>
+          <coverage type="line, %" value="86%  (66.9/78)"/>
 
           <class name="UserDao">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="85%  (11/13)"/>
-            <coverage type="block, %" value="90%  (504/563)"/>
-            <coverage type="line, %" value="89%  (88.9/100)"/>
+            <coverage type="method, %" value="83%  (10/12)"/>
+            <coverage type="block, %" value="89%  (459/513)"/>
+            <coverage type="line, %" value="86%  (67/78)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$persistence$dao$params$user$UserSelectField (): int []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="90%  (43/48)"/>
-              <coverage type="line, %" value="89%  (0.9/1)"/>
-            </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="UserDao (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1696,42 +1691,42 @@
             <method name="countUsersBySearchValue (String, UserSelectField, UserSelectWayCondition): Long">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="94%  (78/83)"/>
-              <coverage type="line, %" value="94%  (15/16)"/>
+              <coverage type="line, %" value="89%  (8/9)"/>
             </method>
             <method name="createFindByValueCriterions (String, UserSelectWayCondition): Criterion []">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (41/41)"/>
-              <coverage type="line, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (6/6)"/>
             </method>
             <method name="createRoleCriterion (String, UserSelectWayCondition): Criterion">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (39/39)"/>
-              <coverage type="line, %" value="100% (9/9)"/>
+              <coverage type="line, %" value="100% (10/10)"/>
             </method>
             <method name="findAll (Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findByLogin (String): User">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/37)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="findUserByValue (String, UserSelectWayCondition, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (96/96)"/>
-              <coverage type="line, %" value="100% (17/17)"/>
+              <coverage type="block, %" value="100% (94/94)"/>
+              <coverage type="line, %" value="100% (15/15)"/>
             </method>
             <method name="findUsersBySearchValue (String, UserSelectField, UserSelectWayCondition, Integer, Integer): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (11/11)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="findUsersBySearchValue (String, UserSelectField, UserSelectWayCondition, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (97/97)"/>
-              <coverage type="line, %" value="100% (18/18)"/>
+              <coverage type="line, %" value="100% (9/9)"/>
             </method>
             <method name="getRowCount (): Long">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1755,27 +1750,22 @@
       </package>
       <package name="com.softserveinc.edu.oms.persistence.dao.params">
         <coverage type="class, %" value="100% (4/4)"/>
-        <coverage type="method, %" value="61%  (14/23)"/>
-        <coverage type="block, %" value="70%  (298/423)"/>
-        <coverage type="line, %" value="57%  (28.2/49)"/>
+        <coverage type="method, %" value="59%  (13/22)"/>
+        <coverage type="block, %" value="66%  (231/351)"/>
+        <coverage type="line, %" value="58%  (27.3/47)"/>
 
         <srcfile name="SelectCondition.java">
           <coverage type="class, %" value="100% (3/3)"/>
-          <coverage type="method, %" value="64%  (9/14)"/>
-          <coverage type="block, %" value="74%  (251/338)"/>
-          <coverage type="line, %" value="61%  (17.6/29)"/>
+          <coverage type="method, %" value="62%  (8/13)"/>
+          <coverage type="block, %" value="69%  (184/266)"/>
+          <coverage type="line, %" value="62%  (16.7/27)"/>
 
           <class name="SelectCondition">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="64%  (7/11)"/>
-            <coverage type="block, %" value="72%  (203/280)"/>
-            <coverage type="line, %" value="60%  (16.7/28)"/>
+            <coverage type="method, %" value="60%  (6/10)"/>
+            <coverage type="block, %" value="65%  (136/208)"/>
+            <coverage type="line, %" value="61%  (15.9/26)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$persistence$dao$params$SelectCondition (): int []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="89%  (55/62)"/>
-              <coverage type="line, %" value="88%  (0.9/1)"/>
-            </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (81/81)"/>
@@ -1786,7 +1776,7 @@
               <coverage type="block, %" value="100% (8/8)"/>
               <coverage type="line, %" value="100% (3/3)"/>
             </method>
-            <method name="SelectCondition (String, int, String, SelectCondition): void">
+            <method name="SelectCondition (String, int, String, SelectCondition$1): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (1/1)"/>
@@ -1803,8 +1793,8 @@
             </method>
             <method name="createStringCriterion (String, String): Criterion">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/50)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="block, %" value="0%   (0/52)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
             </method>
             <method name="getDisplayText (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1823,7 +1813,7 @@
             </method>
             <method name="values (): SelectCondition []">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (16/16)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
@@ -1831,12 +1821,12 @@
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="50%  (1/2)"/>
             <coverage type="block, %" value="64%  (7/11)"/>
-            <coverage type="line, %" value="67%  (2/3)"/>
+            <coverage type="line, %" value="50%  (1/2)"/>
 
             <method name="SelectCondition$1 (String, int, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="createStringCriterion (String, String): Criterion">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1920,20 +1910,20 @@
       <package name="com.softserveinc.edu.oms.persistence.dao.params.user">
         <coverage type="class, %" value="86%  (6/7)"/>
         <coverage type="method, %" value="50%  (13/26)"/>
-        <coverage type="block, %" value="58%  (153/264)"/>
-        <coverage type="line, %" value="39%  (15.6/40)"/>
+        <coverage type="block, %" value="61%  (155/254)"/>
+        <coverage type="line, %" value="36%  (13.9/38)"/>
 
         <srcfile name="UserSelectWayCondition.java">
           <coverage type="class, %" value="100% (6/6)"/>
           <coverage type="method, %" value="72%  (13/18)"/>
-          <coverage type="block, %" value="80%  (153/191)"/>
-          <coverage type="line, %" value="82%  (15.6/19)"/>
+          <coverage type="block, %" value="86%  (155/181)"/>
+          <coverage type="line, %" value="82%  (13.9/17)"/>
 
           <class name="UserSelectWayCondition">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="38%  (3/8)"/>
-            <coverage type="block, %" value="66%  (73/111)"/>
-            <coverage type="line, %" value="69%  (9/13)"/>
+            <coverage type="block, %" value="74%  (73/99)"/>
+            <coverage type="line, %" value="74%  (8.9/12)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1945,7 +1935,7 @@
               <coverage type="block, %" value="100% (8/8)"/>
               <coverage type="line, %" value="100% (3/3)"/>
             </method>
-            <method name="UserSelectWayCondition (String, int, String, UserSelectWayCondition): void">
+            <method name="UserSelectWayCondition (String, int, String, UserSelectWayCondition$1): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (6/6)"/>
               <coverage type="line, %" value="100% (1/1)"/>
@@ -1972,7 +1962,7 @@
             </method>
             <method name="values (): UserSelectWayCondition []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -1980,12 +1970,12 @@
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
             <coverage type="block, %" value="100% (11/11)"/>
-            <coverage type="line, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
 
             <method name="UserSelectWayCondition$1 (String, int, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="createStringCriterion (String, String): Criterion">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1997,12 +1987,12 @@
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
             <coverage type="block, %" value="100% (12/12)"/>
-            <coverage type="line, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
 
             <method name="UserSelectWayCondition$2 (String, int, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="createStringCriterion (String, String): Criterion">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2014,12 +2004,12 @@
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
             <coverage type="block, %" value="100% (18/18)"/>
-            <coverage type="line, %" value="100% (3/3)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
 
             <method name="UserSelectWayCondition$3 (String, int, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="createStringCriterion (String, String): Criterion">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -2030,35 +2020,35 @@
           <class name="UserSelectWayCondition$4">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (19/19)"/>
-            <coverage type="line, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="100% (20/20)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
 
             <method name="UserSelectWayCondition$4 (String, int, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="createStringCriterion (String, String): Criterion">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
           <class name="UserSelectWayCondition$5">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (2/2)"/>
-            <coverage type="block, %" value="100% (20/20)"/>
-            <coverage type="line, %" value="100% (4/4)"/>
+            <coverage type="block, %" value="100% (21/21)"/>
+            <coverage type="line, %" value="100% (2/2)"/>
 
             <method name="UserSelectWayCondition$5 (String, int, String): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (7/7)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="createStringCriterion (String, String): Criterion">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (13/13)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
         </srcfile>
@@ -2119,9 +2109,9 @@
       </package>
       <package name="com.softserveinc.edu.oms.service.implementation">
         <coverage type="class, %" value="0%   (0/9)"/>
-        <coverage type="method, %" value="0%   (0/132)"/>
-        <coverage type="block, %" value="0%   (0/931)"/>
-        <coverage type="line, %" value="0%   (0/204)"/>
+        <coverage type="method, %" value="0%   (0/131)"/>
+        <coverage type="block, %" value="0%   (0/904)"/>
+        <coverage type="line, %" value="0%   (0/184)"/>
 
         <srcfile name="DimensionService.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -2216,13 +2206,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/18)"/>
           <coverage type="block, %" value="0%   (0/115)"/>
-          <coverage type="line, %" value="0%   (0/27)"/>
+          <coverage type="line, %" value="0%   (0/26)"/>
 
           <class name="OrderItemService">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/18)"/>
             <coverage type="block, %" value="0%   (0/115)"/>
-            <coverage type="line, %" value="0%   (0/27)"/>
+            <coverage type="line, %" value="0%   (0/26)"/>
 
             <method name="OrderItemService (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2282,7 +2272,7 @@
             <method name="getOrderItemsFromOrder (Order, Integer, Integer): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="getRowCount (): Long">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2320,13 +2310,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/15)"/>
           <coverage type="block, %" value="0%   (0/183)"/>
-          <coverage type="line, %" value="0%   (0/40)"/>
+          <coverage type="line, %" value="0%   (0/34)"/>
 
           <class name="OrderService">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/15)"/>
             <coverage type="block, %" value="0%   (0/183)"/>
-            <coverage type="line, %" value="0%   (0/40)"/>
+            <coverage type="line, %" value="0%   (0/34)"/>
 
             <method name="OrderService (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2336,12 +2326,12 @@
             <method name="createFilter (SearchFilterOptions): Criterion">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/43)"/>
-              <coverage type="line, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="createSearch (SearchFilterOptions): Criterion">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/65)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
             </method>
             <method name="delete (Order): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2481,25 +2471,20 @@
         </srcfile>
         <srcfile name="ProductService.java">
           <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/29)"/>
-          <coverage type="block, %" value="0%   (0/235)"/>
-          <coverage type="line, %" value="0%   (0/42)"/>
+          <coverage type="method, %" value="0%   (0/28)"/>
+          <coverage type="block, %" value="0%   (0/208)"/>
+          <coverage type="line, %" value="0%   (0/36)"/>
 
           <class name="ProductService">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/28)"/>
-            <coverage type="block, %" value="0%   (0/216)"/>
-            <coverage type="line, %" value="0%   (0/42)"/>
+            <coverage type="method, %" value="0%   (0/27)"/>
+            <coverage type="block, %" value="0%   (0/189)"/>
+            <coverage type="line, %" value="0%   (0/36)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$itemManagement$util$ProductSelectField (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/27)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="ProductService (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="containsProductByDescription (String): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2559,7 +2544,7 @@
             <method name="findByDescription (String, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findByDescription (String, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2579,7 +2564,7 @@
             <method name="findByName (String, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findByName (String, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2599,12 +2584,12 @@
             <method name="findByPriceFromTo (Double, Double, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findBySearchValue (String, ProductSelectField, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/26)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="getRowCount (): Long">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2807,13 +2792,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/17)"/>
           <coverage type="block, %" value="0%   (0/131)"/>
-          <coverage type="line, %" value="0%   (0/33)"/>
+          <coverage type="line, %" value="0%   (0/26)"/>
 
           <class name="UserService">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/17)"/>
             <coverage type="block, %" value="0%   (0/131)"/>
-            <coverage type="line, %" value="0%   (0/33)"/>
+            <coverage type="line, %" value="0%   (0/26)"/>
 
             <method name="UserService (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2823,7 +2808,7 @@
             <method name="countUsersBySearchValue (String, UserSelectField, UserSelectWayCondition): Long">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="delete (User): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2863,17 +2848,17 @@
             <method name="findMerchandiserUsers (): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
             </method>
             <method name="findUsersBySearchValue (String, UserSelectField, UserSelectWayCondition, Integer, Integer): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="findUsersBySearchValue (String, UserSelectField, UserSelectWayCondition, Integer, Integer, SortProperties): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="getRowCount (): Long">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -2906,7 +2891,7 @@
       <package name="com.softserveinc.edu.oms.web">
         <coverage type="class, %" value="0%   (0/4)"/>
         <coverage type="method, %" value="0%   (0/17)"/>
-        <coverage type="block, %" value="0%   (0/181)"/>
+        <coverage type="block, %" value="0%   (0/182)"/>
         <coverage type="line, %" value="0%   (0/59)"/>
 
         <srcfile name="AbstractControler.java">
@@ -2936,13 +2921,13 @@
         <srcfile name="ControlerErrorException.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/7)"/>
-          <coverage type="block, %" value="0%   (0/46)"/>
+          <coverage type="block, %" value="0%   (0/47)"/>
           <coverage type="line, %" value="0%   (0/15)"/>
 
           <class name="ControlerErrorException">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/7)"/>
-            <coverage type="block, %" value="0%   (0/46)"/>
+            <coverage type="block, %" value="0%   (0/47)"/>
             <coverage type="line, %" value="0%   (0/15)"/>
 
             <method name="ControlerErrorException (): void">
@@ -2977,7 +2962,7 @@
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -3053,21 +3038,21 @@
       </package>
       <package name="com.softserveinc.edu.oms.web.abstracthandlers">
         <coverage type="class, %" value="0%   (0/4)"/>
-        <coverage type="method, %" value="0%   (0/21)"/>
-        <coverage type="block, %" value="0%   (0/214)"/>
-        <coverage type="line, %" value="0%   (0/54)"/>
+        <coverage type="method, %" value="0%   (0/20)"/>
+        <coverage type="block, %" value="0%   (0/180)"/>
+        <coverage type="line, %" value="0%   (0/48)"/>
 
         <srcfile name="AbstractCRUDHandler.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/5)"/>
           <coverage type="block, %" value="0%   (0/35)"/>
-          <coverage type="line, %" value="0%   (0/13)"/>
+          <coverage type="line, %" value="0%   (0/11)"/>
 
           <class name="AbstractCRUDHandler">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/5)"/>
             <coverage type="block, %" value="0%   (0/35)"/>
-            <coverage type="line, %" value="0%   (0/13)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
 
             <method name="AbstractCRUDHandler (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3087,7 +3072,7 @@
             <method name="initialize (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/19)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="setReturnJspName (String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3137,25 +3122,20 @@
         </srcfile>
         <srcfile name="AbstractPageableHandler.java">
           <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/11)"/>
-          <coverage type="block, %" value="0%   (0/151)"/>
-          <coverage type="line, %" value="0%   (0/32)"/>
+          <coverage type="method, %" value="0%   (0/10)"/>
+          <coverage type="block, %" value="0%   (0/117)"/>
+          <coverage type="line, %" value="0%   (0/28)"/>
 
           <class name="AbstractPageableHandler">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/10)"/>
-            <coverage type="block, %" value="0%   (0/125)"/>
-            <coverage type="line, %" value="0%   (0/32)"/>
+            <coverage type="method, %" value="0%   (0/9)"/>
+            <coverage type="block, %" value="0%   (0/91)"/>
+            <coverage type="line, %" value="0%   (0/28)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$util$pageable$PageJspType (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="AbstractPageableHandler (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="getJspName (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3170,12 +3150,12 @@
             <method name="hanlerLogic (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/45)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
             </method>
             <method name="initialize (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/27)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="setCurrentPageData (HttpServletRequest, ModelMap, PageModel): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3215,8 +3195,8 @@
       <package name="com.softserveinc.edu.oms.web.itemManagement">
         <coverage type="class, %" value="0%   (0/6)"/>
         <coverage type="method, %" value="0%   (0/49)"/>
-        <coverage type="block, %" value="0%   (0/859)"/>
-        <coverage type="line, %" value="0%   (0/218)"/>
+        <coverage type="block, %" value="0%   (0/883)"/>
+        <coverage type="line, %" value="0%   (0/194)"/>
 
         <srcfile name="AbstractFormProductController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -3250,19 +3230,19 @@
         <srcfile name="AbstractListItemsController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/17)"/>
-          <coverage type="block, %" value="0%   (0/496)"/>
-          <coverage type="line, %" value="0%   (0/126)"/>
+          <coverage type="block, %" value="0%   (0/520)"/>
+          <coverage type="line, %" value="0%   (0/106)"/>
 
           <class name="AbstractListItemsController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/17)"/>
-            <coverage type="block, %" value="0%   (0/496)"/>
-            <coverage type="line, %" value="0%   (0/126)"/>
+            <coverage type="block, %" value="0%   (0/520)"/>
+            <coverage type="line, %" value="0%   (0/106)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="AbstractListItemsController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3272,17 +3252,17 @@
             <method name="countFoundProducts (SearchModel): Integer">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/33)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="countPages (SearchModel, ModelMap): Integer">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/52)"/>
+              <coverage type="block, %" value="0%   (0/64)"/>
               <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="definePage (SearchModel, ModelMap): Integer">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/81)"/>
-              <coverage type="line, %" value="0%   (0/15)"/>
+              <coverage type="block, %" value="0%   (0/93)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
             </method>
             <method name="defineProductSelectField (String): ProductSelectField">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3292,7 +3272,7 @@
             <method name="getResponse (HttpServletRequest, ModelMap): ListRecordResponse">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/62)"/>
-              <coverage type="line, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
             </method>
             <method name="handleAjaxRequest (HttpServletRequest, ModelMap, SearchModel): ListRecordResponse">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3302,12 +3282,12 @@
             <method name="handlePage (HttpServletRequest, Locale): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="handlePageSize (HttpServletRequest): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="handleRequest (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3322,12 +3302,12 @@
             <method name="handleSort (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="processSearch (SearchModel, ModelMap): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/60)"/>
-              <coverage type="line, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
             </method>
             <method name="setProductService (IProductService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3337,7 +3317,7 @@
             <method name="updateSearchModel (HttpServletRequest, SearchModel): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="validateButtons (SearchModel, Integer, Integer): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3413,13 +3393,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/11)"/>
           <coverage type="block, %" value="0%   (0/94)"/>
-          <coverage type="line, %" value="0%   (0/23)"/>
+          <coverage type="line, %" value="0%   (0/24)"/>
 
           <class name="ListItemsController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/11)"/>
             <coverage type="block, %" value="0%   (0/94)"/>
-            <coverage type="line, %" value="0%   (0/23)"/>
+            <coverage type="line, %" value="0%   (0/24)"/>
 
             <method name="ListItemsController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3434,7 +3414,7 @@
             <method name="handleDelete (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/30)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="handlePage (HttpServletRequest, Locale): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3482,13 +3462,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/11)"/>
           <coverage type="block, %" value="0%   (0/133)"/>
-          <coverage type="line, %" value="0%   (0/34)"/>
+          <coverage type="line, %" value="0%   (0/29)"/>
 
           <class name="ReportListProductController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/11)"/>
             <coverage type="block, %" value="0%   (0/133)"/>
-            <coverage type="line, %" value="0%   (0/34)"/>
+            <coverage type="line, %" value="0%   (0/29)"/>
 
             <method name="ReportListProductController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3533,12 +3513,12 @@
             <method name="printPDFReport (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/63)"/>
-              <coverage type="line, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
             </method>
             <method name="publishLinks (ModelMap): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/31)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="redirectAfterAction (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3552,7 +3532,7 @@
         <coverage type="class, %" value="0%   (0/2)"/>
         <coverage type="method, %" value="0%   (0/9)"/>
         <coverage type="block, %" value="0%   (0/88)"/>
-        <coverage type="line, %" value="0%   (0/30)"/>
+        <coverage type="line, %" value="0%   (0/26)"/>
 
         <srcfile name="ProductSortPropertiesFactory.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -3597,18 +3577,18 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
           <coverage type="block, %" value="0%   (0/48)"/>
-          <coverage type="line, %" value="0%   (0/18)"/>
+          <coverage type="line, %" value="0%   (0/14)"/>
 
           <class name="ProductSortResolver">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
             <coverage type="block, %" value="0%   (0/48)"/>
-            <coverage type="line, %" value="0%   (0/18)"/>
+            <coverage type="line, %" value="0%   (0/14)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="ProductSortResolver (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3623,7 +3603,7 @@
             <method name="handleSort (SearchModel, String): SearchModel">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/38)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
             </method>
           </class>
         </srcfile>
@@ -3631,20 +3611,20 @@
       <package name="com.softserveinc.edu.oms.web.itemsmanagement">
         <coverage type="class, %" value="0%   (0/2)"/>
         <coverage type="method, %" value="0%   (0/10)"/>
-        <coverage type="block, %" value="0%   (0/142)"/>
-        <coverage type="line, %" value="0%   (0/36)"/>
+        <coverage type="block, %" value="0%   (0/141)"/>
+        <coverage type="line, %" value="0%   (0/35)"/>
 
         <srcfile name="ItemManagementController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/8)"/>
-          <coverage type="block, %" value="0%   (0/103)"/>
-          <coverage type="line, %" value="0%   (0/27)"/>
+          <coverage type="block, %" value="0%   (0/102)"/>
+          <coverage type="line, %" value="0%   (0/26)"/>
 
           <class name="ItemManagementController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/8)"/>
-            <coverage type="block, %" value="0%   (0/103)"/>
-            <coverage type="line, %" value="0%   (0/27)"/>
+            <coverage type="block, %" value="0%   (0/102)"/>
+            <coverage type="line, %" value="0%   (0/26)"/>
 
             <method name="ItemManagementController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3663,7 +3643,7 @@
             </method>
             <method name="deleteProduct (String, Model): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/24)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
               <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="editProduct (String, Model): String">
@@ -3679,7 +3659,7 @@
             <method name="productList (Map, HttpServletRequest): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="setProductService (IProductService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3717,19 +3697,19 @@
         <coverage type="class, %" value="0%   (0/2)"/>
         <coverage type="method, %" value="0%   (0/10)"/>
         <coverage type="block, %" value="0%   (0/99)"/>
-        <coverage type="line, %" value="0%   (0/29)"/>
+        <coverage type="line, %" value="0%   (0/25)"/>
 
         <srcfile name="MerchandiserEditControler.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
           <coverage type="block, %" value="0%   (0/28)"/>
-          <coverage type="line, %" value="0%   (0/9)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
 
           <class name="MerchandiserEditControler">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
             <coverage type="block, %" value="0%   (0/28)"/>
-            <coverage type="line, %" value="0%   (0/9)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
 
             <method name="MerchandiserEditControler (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3739,7 +3719,7 @@
             <method name="handleMerchandiserControler (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/17)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
             </method>
             <method name="setOrderService (IOrderService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3757,13 +3737,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/6)"/>
           <coverage type="block, %" value="0%   (0/71)"/>
-          <coverage type="line, %" value="0%   (0/20)"/>
+          <coverage type="line, %" value="0%   (0/17)"/>
 
           <class name="MerchandiserShowPageControler">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/6)"/>
             <coverage type="block, %" value="0%   (0/71)"/>
-            <coverage type="line, %" value="0%   (0/20)"/>
+            <coverage type="line, %" value="0%   (0/17)"/>
 
             <method name="MerchandiserShowPageControler (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3773,17 +3753,17 @@
             <method name="handleMerchandiserControler (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="handleMerchandiserPageableControler (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="handleMerchandiserWithoutAjaxControler (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="setOrderItemService (IOrderItemService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3801,20 +3781,20 @@
       <package name="com.softserveinc.edu.oms.web.merchandiserpages.handlers">
         <coverage type="class, %" value="0%   (0/2)"/>
         <coverage type="method, %" value="0%   (0/16)"/>
-        <coverage type="block, %" value="0%   (0/389)"/>
-        <coverage type="line, %" value="0%   (0/109)"/>
+        <coverage type="block, %" value="0%   (0/390)"/>
+        <coverage type="line, %" value="0%   (0/78)"/>
 
         <srcfile name="MerchandiserEditHandler.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/8)"/>
-          <coverage type="block, %" value="0%   (0/171)"/>
-          <coverage type="line, %" value="0%   (0/46)"/>
+          <coverage type="block, %" value="0%   (0/172)"/>
+          <coverage type="line, %" value="0%   (0/38)"/>
 
           <class name="MerchandiserEditHandler">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/8)"/>
-            <coverage type="block, %" value="0%   (0/171)"/>
-            <coverage type="line, %" value="0%   (0/46)"/>
+            <coverage type="block, %" value="0%   (0/172)"/>
+            <coverage type="line, %" value="0%   (0/38)"/>
 
             <method name="MerchandiserEditHandler (IOrderService, IOrderStatusService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3823,18 +3803,18 @@
             </method>
             <method name="executeCRUDOperation (HttpServletRequest): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/46)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/47)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="getDeliveryDateFromRequest (HttpServletRequest): Date">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/13)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
             </method>
             <method name="getIsGiftFromRequest (HttpServletRequest): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/21)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
             </method>
             <method name="getOrderStatusFromRequest (HttpServletRequest): OrderStatus">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3844,7 +3824,7 @@
             <method name="getSelectedOrder (HttpServletRequest): Order">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="initialize (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3854,7 +3834,7 @@
             <method name="isValidRequiredParameters (HttpServletRequest): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
@@ -3862,13 +3842,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/8)"/>
           <coverage type="block, %" value="0%   (0/218)"/>
-          <coverage type="line, %" value="0%   (0/63)"/>
+          <coverage type="line, %" value="0%   (0/40)"/>
 
           <class name="MerchandiserPageableHandler">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/8)"/>
             <coverage type="block, %" value="0%   (0/218)"/>
-            <coverage type="line, %" value="0%   (0/63)"/>
+            <coverage type="line, %" value="0%   (0/40)"/>
 
             <method name="MerchandiserPageableHandler (IOrderService, IOrderItemService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3878,7 +3858,7 @@
             <method name="checkCurrentUserPermissions (HttpServletRequest): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/18)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="getNumberOfAllElementsForPageModel (HttpServletRequest): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3888,7 +3868,7 @@
             <method name="getSelectedOrder (HttpServletRequest): Order">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="initialize (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3898,43 +3878,43 @@
             <method name="isValidRequiredParameters (HttpServletRequest): boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="setCurrentPageData (HttpServletRequest, ModelMap, PageModel): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/35)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="setGeneralPageData (HttpServletRequest, ModelMap, PageModel): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/108)"/>
-              <coverage type="line, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
             </method>
           </class>
         </srcfile>
       </package>
       <package name="com.softserveinc.edu.oms.web.order">
         <coverage type="class, %" value="0%   (0/5)"/>
-        <coverage type="method, %" value="0%   (0/41)"/>
-        <coverage type="block, %" value="0%   (0/1144)"/>
-        <coverage type="line, %" value="0%   (0/230)"/>
+        <coverage type="method, %" value="0%   (0/40)"/>
+        <coverage type="block, %" value="0%   (0/1070)"/>
+        <coverage type="line, %" value="0%   (0/204)"/>
 
         <srcfile name="OrderController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/13)"/>
-          <coverage type="block, %" value="0%   (0/417)"/>
-          <coverage type="line, %" value="0%   (0/111)"/>
+          <coverage type="block, %" value="0%   (0/416)"/>
+          <coverage type="line, %" value="0%   (0/83)"/>
 
           <class name="OrderController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/13)"/>
-            <coverage type="block, %" value="0%   (0/417)"/>
-            <coverage type="line, %" value="0%   (0/111)"/>
+            <coverage type="block, %" value="0%   (0/416)"/>
+            <coverage type="line, %" value="0%   (0/83)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="OrderController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3953,8 +3933,8 @@
             </method>
             <method name="handleDelete (HttpServletRequest, HttpServletResponse): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/18)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="handleEdit (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -3964,66 +3944,61 @@
             <method name="handleFirstPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/16)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="handleLastPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/38)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="handleNextPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/46)"/>
-              <coverage type="line, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="handlePreviousPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="listFilteredOrders (SearchFilterOptions, HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/31)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="listOrders (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/63)"/>
-              <coverage type="line, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/16)"/>
             </method>
             <method name="prepareData (HttpServletRequest, ModelMap): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/87)"/>
-              <coverage type="line, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/21)"/>
             </method>
           </class>
         </srcfile>
         <srcfile name="OrderSortProperties.java">
           <coverage type="class, %" value="0%   (0/3)"/>
-          <coverage type="method, %" value="0%   (0/8)"/>
-          <coverage type="block, %" value="0%   (0/496)"/>
-          <coverage type="line, %" value="0%   (0/56)"/>
+          <coverage type="method, %" value="0%   (0/7)"/>
+          <coverage type="block, %" value="0%   (0/422)"/>
+          <coverage type="line, %" value="0%   (0/62)"/>
 
           <class name="OrderSortProperties">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/342)"/>
-            <coverage type="line, %" value="0%   (0/53)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/280)"/>
+            <coverage type="line, %" value="0%   (0/61)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$order$OrderSortProperties$SortPropertiesValues (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/62)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="OrderSortProperties (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="setSortOption (OrderSortProperties$SortPropertiesValues): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/277)"/>
-              <coverage type="line, %" value="0%   (0/52)"/>
+              <coverage type="line, %" value="0%   (0/59)"/>
             </method>
           </class>
           <class name="OrderSortProperties$1">
@@ -4041,8 +4016,8 @@
           <class name="OrderSortProperties$SortPropertiesValues">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
-            <coverage type="block, %" value="0%   (0/100)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/88)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4061,7 +4036,7 @@
             </method>
             <method name="values (): OrderSortProperties$SortPropertiesValues []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -4069,14 +4044,14 @@
         <srcfile name="SearchFilterOptions.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/20)"/>
-          <coverage type="block, %" value="0%   (0/231)"/>
-          <coverage type="line, %" value="0%   (0/63)"/>
+          <coverage type="block, %" value="0%   (0/232)"/>
+          <coverage type="line, %" value="0%   (0/59)"/>
 
           <class name="SearchFilterOptions">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/20)"/>
-            <coverage type="block, %" value="0%   (0/231)"/>
-            <coverage type="line, %" value="0%   (0/63)"/>
+            <coverage type="block, %" value="0%   (0/232)"/>
+            <coverage type="line, %" value="0%   (0/59)"/>
 
             <method name="SearchFilterOptions (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4175,8 +4150,8 @@
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/42)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="block, %" value="0%   (0/43)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
@@ -4184,20 +4159,20 @@
       <package name="com.softserveinc.edu.oms.web.orderitem">
         <coverage type="class, %" value="0%   (0/5)"/>
         <coverage type="method, %" value="0%   (0/40)"/>
-        <coverage type="block, %" value="0%   (0/921)"/>
-        <coverage type="line, %" value="0%   (0/251)"/>
+        <coverage type="block, %" value="0%   (0/939)"/>
+        <coverage type="line, %" value="0%   (0/203)"/>
 
         <srcfile name="OrderItemControllerUtil.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/21)"/>
-          <coverage type="block, %" value="0%   (0/352)"/>
-          <coverage type="line, %" value="0%   (0/97)"/>
+          <coverage type="block, %" value="0%   (0/358)"/>
+          <coverage type="line, %" value="0%   (0/85)"/>
 
           <class name="OrderItemControllerUtil">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/21)"/>
-            <coverage type="block, %" value="0%   (0/352)"/>
-            <coverage type="line, %" value="0%   (0/97)"/>
+            <coverage type="block, %" value="0%   (0/358)"/>
+            <coverage type="line, %" value="0%   (0/85)"/>
 
             <method name="OrderItemControllerUtil (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4207,7 +4182,7 @@
             <method name="addOrderData (HttpServletRequest, Integer): ITemporaryOrderData">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/19)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="addOrderIdParameter (String, Integer): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4222,22 +4197,22 @@
             <method name="fillModelMap (HttpServletRequest, ModelMap, ITemporaryOrderData, Locale): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/59)"/>
-              <coverage type="line, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
             </method>
             <method name="getLoggedUser (): User">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/10)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
             </method>
             <method name="getOrderItemPageModel (HttpServletRequest, Integer, OrderItemsLinesNumberModel): OrderItemsPageModel">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/39)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="block, %" value="0%   (0/45)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="getOrderItemsLinesNumberModel (HttpServletRequest): OrderItemsLinesNumberModel">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="getPageNumberFromRequest (HttpServletRequest): Integer">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4247,7 +4222,7 @@
             <method name="isIntegerParameterValid (String): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="isOrderIdValid (HttpServletRequest): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4257,7 +4232,7 @@
             <method name="isOrderNumberValid (HttpServletRequest): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="isOrderTempIdValid (HttpServletRequest): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4310,13 +4285,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
           <coverage type="block, %" value="0%   (0/150)"/>
-          <coverage type="line, %" value="0%   (0/43)"/>
+          <coverage type="line, %" value="0%   (0/32)"/>
 
           <class name="OrderItemDBController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
             <coverage type="block, %" value="0%   (0/150)"/>
-            <coverage type="line, %" value="0%   (0/43)"/>
+            <coverage type="line, %" value="0%   (0/32)"/>
 
             <method name="OrderItemDBController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4326,17 +4301,17 @@
             <method name="orderItemsCancel (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/14)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="orderItemsOrder (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/36)"/>
-              <coverage type="line, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="orderItemsSave (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/97)"/>
-              <coverage type="line, %" value="0%   (0/24)"/>
+              <coverage type="line, %" value="0%   (0/19)"/>
             </method>
           </class>
         </srcfile>
@@ -4344,13 +4319,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/8)"/>
           <coverage type="block, %" value="0%   (0/307)"/>
-          <coverage type="line, %" value="0%   (0/80)"/>
+          <coverage type="line, %" value="0%   (0/62)"/>
 
           <class name="OrderItemEditController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/8)"/>
             <coverage type="block, %" value="0%   (0/307)"/>
-            <coverage type="line, %" value="0%   (0/80)"/>
+            <coverage type="line, %" value="0%   (0/62)"/>
 
             <method name="OrderItemEditController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4360,37 +4335,37 @@
             <method name="canOrderBeEdited (Order): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="createNewOrder (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/36)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="deleteOrderItem (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/36)"/>
-              <coverage type="line, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="listOfOrderItems (HttpServletRequest, Locale, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/118)"/>
-              <coverage type="line, %" value="0%   (0/28)"/>
+              <coverage type="line, %" value="0%   (0/23)"/>
             </method>
             <method name="listOrderItemError (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="orderItemsOpen (HttpServletRequest, Locale, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/45)"/>
-              <coverage type="line, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="resizeOrderItems (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/26)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
           </class>
         </srcfile>
@@ -4398,13 +4373,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/2)"/>
           <coverage type="block, %" value="0%   (0/31)"/>
-          <coverage type="line, %" value="0%   (0/10)"/>
+          <coverage type="line, %" value="0%   (0/8)"/>
 
           <class name="OrderItemViewController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/2)"/>
             <coverage type="block, %" value="0%   (0/31)"/>
-            <coverage type="line, %" value="0%   (0/10)"/>
+            <coverage type="line, %" value="0%   (0/8)"/>
 
             <method name="OrderItemViewController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4414,21 +4389,21 @@
             <method name="listOfOrderItems (HttpServletRequest, Locale, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/28)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
           </class>
         </srcfile>
         <srcfile name="OrerItemIterationController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/5)"/>
-          <coverage type="block, %" value="0%   (0/81)"/>
-          <coverage type="line, %" value="0%   (0/21)"/>
+          <coverage type="block, %" value="0%   (0/93)"/>
+          <coverage type="line, %" value="0%   (0/16)"/>
 
           <class name="OrerItemIterationController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/5)"/>
-            <coverage type="block, %" value="0%   (0/81)"/>
-            <coverage type="line, %" value="0%   (0/21)"/>
+            <coverage type="block, %" value="0%   (0/93)"/>
+            <coverage type="line, %" value="0%   (0/16)"/>
 
             <method name="OrerItemIterationController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4438,22 +4413,22 @@
             <method name="firstPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="lastPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="nextPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/21)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="prevPage (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/21)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="block, %" value="0%   (0/27)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
           </class>
         </srcfile>
@@ -4461,7 +4436,7 @@
       <package name="com.softserveinc.edu.oms.web.orderitem.model">
         <coverage type="class, %" value="100% (2/2)"/>
         <coverage type="method, %" value="100% (20/20)"/>
-        <coverage type="block, %" value="99%  (283/286)"/>
+        <coverage type="block, %" value="99%  (295/298)"/>
         <coverage type="line, %" value="99%  (57.6/58)"/>
 
         <srcfile name="OrderItemsLinesNumberModel.java">
@@ -4506,13 +4481,13 @@
         <srcfile name="OrderItemsPageModel.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (15/15)"/>
-          <coverage type="block, %" value="99%  (233/236)"/>
+          <coverage type="block, %" value="99%  (245/248)"/>
           <coverage type="line, %" value="99%  (45.6/46)"/>
 
           <class name="OrderItemsPageModel">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (15/15)"/>
-            <coverage type="block, %" value="99%  (233/236)"/>
+            <coverage type="block, %" value="99%  (245/248)"/>
             <coverage type="line, %" value="99%  (45.6/46)"/>
 
             <method name="OrderItemsPageModel (Integer, Integer): void">
@@ -4542,12 +4517,12 @@
             </method>
             <method name="hasNextPage (): Boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="block, %" value="100% (14/14)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="hasPrevPage (): Boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="isDisabled (String): Boolean">
@@ -4577,12 +4552,12 @@
             </method>
             <method name="nextPage (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="prevPage (): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="block, %" value="100% (16/16)"/>
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="validatePageNumber (): Integer">
@@ -4596,20 +4571,20 @@
       <package name="com.softserveinc.edu.oms.web.orderitem.model.temporarydata">
         <coverage type="class, %" value="100% (2/2)"/>
         <coverage type="method, %" value="88%  (22/25)"/>
-        <coverage type="block, %" value="86%  (568/664)"/>
-        <coverage type="line, %" value="86%  (114/133)"/>
+        <coverage type="block, %" value="86%  (578/676)"/>
+        <coverage type="line, %" value="83%  (108/130)"/>
 
         <srcfile name="TemporaryListOrderData.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="100% (5/5)"/>
-          <coverage type="block, %" value="94%  (144/153)"/>
-          <coverage type="line, %" value="93%  (26/28)"/>
+          <coverage type="block, %" value="93%  (141/151)"/>
+          <coverage type="line, %" value="90%  (26/29)"/>
 
           <class name="TemporaryListOrderData">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="100% (5/5)"/>
-            <coverage type="block, %" value="94%  (144/153)"/>
-            <coverage type="line, %" value="93%  (26/28)"/>
+            <coverage type="block, %" value="93%  (141/151)"/>
+            <coverage type="line, %" value="90%  (26/29)"/>
 
             <method name="TemporaryListOrderData (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -4618,13 +4593,13 @@
             </method>
             <method name="addOrderData (): ITemporaryOrderData">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (33/33)"/>
+              <coverage type="block, %" value="100% (32/32)"/>
               <coverage type="line, %" value="100% (6/6)"/>
             </method>
             <method name="addOrderData (Order, List): ITemporaryOrderData">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="97%  (71/73)"/>
-              <coverage type="line, %" value="91%  (10/11)"/>
+              <coverage type="block, %" value="96%  (69/72)"/>
+              <coverage type="line, %" value="83%  (10/12)"/>
             </method>
             <method name="getTemporaryOrderData (Integer): ITemporaryOrderData">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -4641,14 +4616,14 @@
         <srcfile name="TemporaryOrderData.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="85%  (17/20)"/>
-          <coverage type="block, %" value="83%  (424/511)"/>
-          <coverage type="line, %" value="84%  (88/105)"/>
+          <coverage type="block, %" value="83%  (437/525)"/>
+          <coverage type="line, %" value="81%  (82/101)"/>
 
           <class name="TemporaryOrderData">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="85%  (17/20)"/>
-            <coverage type="block, %" value="83%  (424/511)"/>
-            <coverage type="line, %" value="84%  (88/105)"/>
+            <coverage type="block, %" value="83%  (437/525)"/>
+            <coverage type="line, %" value="81%  (82/101)"/>
 
             <method name="TemporaryOrderData (Integer): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -4657,18 +4632,18 @@
             </method>
             <method name="TemporaryOrderData (Integer, Order, List): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (98/98)"/>
-              <coverage type="line, %" value="100% (19/19)"/>
+              <coverage type="block, %" value="100% (105/105)"/>
+              <coverage type="line, %" value="100% (18/18)"/>
             </method>
             <method name="changeCostOfOrderItem (TemporaryOrderItem): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (17/17)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
             </method>
             <method name="findById (int): TemporaryOrderItem">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (21/21)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
             </method>
             <method name="getIsEditable (): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4698,7 +4673,7 @@
             <method name="getOrderItems (Integer, Integer): List">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (31/31)"/>
-              <coverage type="line, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (5/5)"/>
             </method>
             <method name="getTempOrder (): TemporaryOrder">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -4708,11 +4683,11 @@
             <method name="increaseTotalPrice (TemporaryOrderItem): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
             </method>
             <method name="insert (TemporaryOrderItem): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (32/32)"/>
+              <coverage type="block, %" value="100% (39/39)"/>
               <coverage type="line, %" value="100% (6/6)"/>
             </method>
             <method name="insertOrUpdate (TemporaryOrderItem): void">
@@ -4723,17 +4698,17 @@
             <method name="numberOfItemsInOrderItem (TemporaryOrderItem): Integer">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (12/12)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
             </method>
             <method name="reduceTotalPrice (TemporaryOrderItem): void">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (18/18)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
             </method>
             <method name="remove (Integer): void">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (41/41)"/>
-              <coverage type="line, %" value="100% (8/8)"/>
+              <coverage type="block, %" value="98%  (40/41)"/>
+              <coverage type="line, %" value="89%  (8/9)"/>
             </method>
             <method name="setIsEditable (boolean): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4743,7 +4718,7 @@
             <method name="submit (IOrderService, IOrderItemService, IOrderStatusService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/79)"/>
-              <coverage type="line, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/15)"/>
             </method>
             <method name="update (TemporaryOrderItem): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -4862,19 +4837,19 @@
         <coverage type="class, %" value="100% (1/1)"/>
         <coverage type="method, %" value="25%  (1/4)"/>
         <coverage type="block, %" value="11%  (5/45)"/>
-        <coverage type="line, %" value="11%  (2/18)"/>
+        <coverage type="line, %" value="14%  (2/14)"/>
 
         <srcfile name="SessionExplorer.java">
           <coverage type="class, %" value="100% (1/1)"/>
           <coverage type="method, %" value="25%  (1/4)"/>
           <coverage type="block, %" value="11%  (5/45)"/>
-          <coverage type="line, %" value="11%  (2/18)"/>
+          <coverage type="line, %" value="14%  (2/14)"/>
 
           <class name="SessionExplorer">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="25%  (1/4)"/>
             <coverage type="block, %" value="11%  (5/45)"/>
-            <coverage type="line, %" value="11%  (2/18)"/>
+            <coverage type="line, %" value="14%  (2/14)"/>
 
             <method name="SessionExplorer (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -4884,53 +4859,48 @@
             <method name="getLoggedUser (): User">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="33%  (5/15)"/>
-              <coverage type="line, %" value="33%  (2/6)"/>
+              <coverage type="line, %" value="40%  (2/5)"/>
             </method>
             <method name="getTemporaryListData (HttpServletRequest): TemporaryListOrderData">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/20)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="getTemporaryOrderData (HttpServletRequest, Integer): ITemporaryOrderData">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/7)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
           </class>
         </srcfile>
       </package>
       <package name="com.softserveinc.edu.oms.web.pageablecontroler">
         <coverage type="class, %" value="0%   (0/2)"/>
-        <coverage type="method, %" value="0%   (0/4)"/>
-        <coverage type="block, %" value="0%   (0/142)"/>
+        <coverage type="method, %" value="0%   (0/3)"/>
+        <coverage type="block, %" value="0%   (0/112)"/>
         <coverage type="line, %" value="0%   (0/20)"/>
 
         <srcfile name="AbstractPageableControler.java">
           <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/4)"/>
-          <coverage type="block, %" value="0%   (0/142)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/112)"/>
           <coverage type="line, %" value="0%   (0/20)"/>
 
           <class name="AbstractPageableControler">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/3)"/>
-            <coverage type="block, %" value="0%   (0/116)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/86)"/>
             <coverage type="line, %" value="0%   (0/20)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$pageablecontroler$util$PageJspType (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="AbstractPageableControler (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="setModelMapDataForJsp (HttpServletRequest, ModelMap, String, PageJspType): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/79)"/>
-              <coverage type="line, %" value="0%   (0/19)"/>
+              <coverage type="block, %" value="0%   (0/83)"/>
+              <coverage type="line, %" value="0%   (0/18)"/>
             </method>
           </class>
           <class name="AbstractPageableControler$1">
@@ -4949,27 +4919,22 @@
       </package>
       <package name="com.softserveinc.edu.oms.web.pageablecontroler.util">
         <coverage type="class, %" value="0%   (0/8)"/>
-        <coverage type="method, %" value="0%   (0/43)"/>
-        <coverage type="block, %" value="0%   (0/761)"/>
-        <coverage type="line, %" value="0%   (0/117)"/>
+        <coverage type="method, %" value="0%   (0/41)"/>
+        <coverage type="block, %" value="0%   (0/643)"/>
+        <coverage type="line, %" value="0%   (0/101)"/>
 
         <srcfile name="PageActions.java">
           <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/9)"/>
-          <coverage type="block, %" value="0%   (0/202)"/>
-          <coverage type="line, %" value="0%   (0/18)"/>
+          <coverage type="method, %" value="0%   (0/8)"/>
+          <coverage type="block, %" value="0%   (0/149)"/>
+          <coverage type="line, %" value="0%   (0/17)"/>
 
           <class name="PageActions">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/8)"/>
-            <coverage type="block, %" value="0%   (0/169)"/>
-            <coverage type="line, %" value="0%   (0/18)"/>
+            <coverage type="method, %" value="0%   (0/7)"/>
+            <coverage type="block, %" value="0%   (0/116)"/>
+            <coverage type="line, %" value="0%   (0/17)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$pageablecontroler$util$PageActions (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/41)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/48)"/>
@@ -5002,7 +4967,7 @@
             </method>
             <method name="values (): PageActions []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -5022,14 +4987,14 @@
         <srcfile name="PageJspType.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
-          <coverage type="block, %" value="0%   (0/60)"/>
-          <coverage type="line, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/48)"/>
+          <coverage type="line, %" value="0%   (0/2)"/>
 
           <class name="PageJspType">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
-            <coverage type="block, %" value="0%   (0/60)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/48)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5048,32 +5013,27 @@
             </method>
             <method name="values (): PageJspType []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
         <srcfile name="PageModel.java">
           <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/17)"/>
-          <coverage type="block, %" value="0%   (0/311)"/>
-          <coverage type="line, %" value="0%   (0/68)"/>
+          <coverage type="method, %" value="0%   (0/16)"/>
+          <coverage type="block, %" value="0%   (0/269)"/>
+          <coverage type="line, %" value="0%   (0/57)"/>
 
           <class name="PageModel">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/16)"/>
-            <coverage type="block, %" value="0%   (0/278)"/>
-            <coverage type="line, %" value="0%   (0/68)"/>
+            <coverage type="method, %" value="0%   (0/15)"/>
+            <coverage type="block, %" value="0%   (0/236)"/>
+            <coverage type="line, %" value="0%   (0/57)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$pageablecontroler$util$PageActions (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/41)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="PageModel (int, HttpServletRequest): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="getCurrentPage (): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5082,8 +5042,8 @@
             </method>
             <method name="getCurrentPageFromRequestParameter (HttpServletRequest): int">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/63)"/>
-              <coverage type="line, %" value="0%   (0/18)"/>
+              <coverage type="block, %" value="0%   (0/64)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
             </method>
             <method name="getListOfRequiredParameters (): List">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5098,7 +5058,7 @@
             <method name="getNumberOfPages (int, PageShowElements): int">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="getShowElements (): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5108,16 +5068,16 @@
             <method name="getShowElementsFromRequestParameter (HttpServletRequest): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/30)"/>
-              <coverage type="line, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
             </method>
             <method name="hasElementsToShow (): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="isCurrentPageShowElement (PageShowElements): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="isPageActionDisabled (PageActions): Boolean">
@@ -5143,7 +5103,7 @@
             <method name="setShowElements (String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
           </class>
           <class name="PageModel$1">
@@ -5162,14 +5122,14 @@
         <srcfile name="PageShowElements.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/7)"/>
-          <coverage type="block, %" value="0%   (0/162)"/>
-          <coverage type="line, %" value="0%   (0/17)"/>
+          <coverage type="block, %" value="0%   (0/151)"/>
+          <coverage type="line, %" value="0%   (0/14)"/>
 
           <class name="PageShowElements">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/7)"/>
-            <coverage type="block, %" value="0%   (0/162)"/>
-            <coverage type="line, %" value="0%   (0/17)"/>
+            <coverage type="block, %" value="0%   (0/151)"/>
+            <coverage type="line, %" value="0%   (0/14)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5193,8 +5153,8 @@
             </method>
             <method name="getPageShowElementsFromInteger (int): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/35)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="valueOf (String): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5203,7 +5163,7 @@
             </method>
             <method name="values (): PageShowElements []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -5270,20 +5230,20 @@
       <package name="com.softserveinc.edu.oms.web.product">
         <coverage type="class, %" value="0%   (0/1)"/>
         <coverage type="method, %" value="0%   (0/7)"/>
-        <coverage type="block, %" value="0%   (0/250)"/>
-        <coverage type="line, %" value="0%   (0/73)"/>
+        <coverage type="block, %" value="0%   (0/251)"/>
+        <coverage type="line, %" value="0%   (0/56)"/>
 
         <srcfile name="ProductController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/7)"/>
-          <coverage type="block, %" value="0%   (0/250)"/>
-          <coverage type="line, %" value="0%   (0/73)"/>
+          <coverage type="block, %" value="0%   (0/251)"/>
+          <coverage type="line, %" value="0%   (0/56)"/>
 
           <class name="ProductController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/7)"/>
-            <coverage type="block, %" value="0%   (0/250)"/>
-            <coverage type="line, %" value="0%   (0/73)"/>
+            <coverage type="block, %" value="0%   (0/251)"/>
+            <coverage type="line, %" value="0%   (0/56)"/>
 
             <method name="ProductController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5293,22 +5253,22 @@
             <method name="fillProductModel (ListProductModel, HttpServletRequest): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/56)"/>
-              <coverage type="line, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
             </method>
             <method name="findProducts (ListProductModel): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/32)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
             </method>
             <method name="listProducts (HttpServletRequest, ModelMap, ListProductModel): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/71)"/>
-              <coverage type="line, %" value="0%   (0/18)"/>
+              <coverage type="line, %" value="0%   (0/16)"/>
             </method>
             <method name="saveChanges (HttpServletRequest, ListProductModel): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/80)"/>
-              <coverage type="line, %" value="0%   (0/20)"/>
+              <coverage type="block, %" value="0%   (0/81)"/>
+              <coverage type="line, %" value="0%   (0/17)"/>
             </method>
             <method name="setDimensionService (IDimensionService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5327,24 +5287,24 @@
         <coverage type="class, %" value="0%   (0/2)"/>
         <coverage type="method, %" value="0%   (0/30)"/>
         <coverage type="block, %" value="0%   (0/296)"/>
-        <coverage type="line, %" value="0%   (0/82)"/>
+        <coverage type="line, %" value="0%   (0/73)"/>
 
         <srcfile name="ListProductModel.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/28)"/>
           <coverage type="block, %" value="0%   (0/251)"/>
-          <coverage type="line, %" value="0%   (0/68)"/>
+          <coverage type="line, %" value="0%   (0/62)"/>
 
           <class name="ListProductModel">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/28)"/>
             <coverage type="block, %" value="0%   (0/251)"/>
-            <coverage type="line, %" value="0%   (0/68)"/>
+            <coverage type="line, %" value="0%   (0/62)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/23)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/6)"/>
             </method>
             <method name="ListProductModel (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5354,7 +5314,7 @@
             <method name="changeSortPropertiesName (String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/35)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="getAscending (): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5408,8 +5368,8 @@
             </method>
             <method name="isEmpty (): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/15)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="isIntegerParameterValid (String): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5478,8 +5438,8 @@
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/51)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="block, %" value="0%   (0/52)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
@@ -5487,13 +5447,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/2)"/>
           <coverage type="block, %" value="0%   (0/45)"/>
-          <coverage type="line, %" value="0%   (0/14)"/>
+          <coverage type="line, %" value="0%   (0/11)"/>
 
           <class name="ProductSortModel">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/2)"/>
             <coverage type="block, %" value="0%   (0/45)"/>
-            <coverage type="line, %" value="0%   (0/14)"/>
+            <coverage type="line, %" value="0%   (0/11)"/>
 
             <method name="ProductSortModel (String, Boolean): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5503,7 +5463,7 @@
             <method name="createSortProperties (): SortProperties">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/36)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
           </class>
         </srcfile>
@@ -5511,25 +5471,25 @@
       <package name="com.softserveinc.edu.oms.web.security">
         <coverage type="class, %" value="0%   (0/3)"/>
         <coverage type="method, %" value="0%   (0/19)"/>
-        <coverage type="block, %" value="0%   (0/116)"/>
-        <coverage type="line, %" value="0%   (0/38)"/>
+        <coverage type="block, %" value="0%   (0/129)"/>
+        <coverage type="line, %" value="0%   (0/35)"/>
 
         <srcfile name="LoginController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
           <coverage type="block, %" value="0%   (0/40)"/>
-          <coverage type="line, %" value="0%   (0/13)"/>
+          <coverage type="line, %" value="0%   (0/12)"/>
 
           <class name="LoginController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
             <coverage type="block, %" value="0%   (0/40)"/>
-            <coverage type="line, %" value="0%   (0/13)"/>
+            <coverage type="line, %" value="0%   (0/12)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/4)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="LoginController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5539,7 +5499,7 @@
             <method name="handleLogin (ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="setSessionRegistry (SessionRegistry): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5551,14 +5511,14 @@
         <srcfile name="UserSecurityData.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/9)"/>
-          <coverage type="block, %" value="0%   (0/47)"/>
-          <coverage type="line, %" value="0%   (0/14)"/>
+          <coverage type="block, %" value="0%   (0/48)"/>
+          <coverage type="line, %" value="0%   (0/13)"/>
 
           <class name="UserSecurityData">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/9)"/>
-            <coverage type="block, %" value="0%   (0/47)"/>
-            <coverage type="line, %" value="0%   (0/14)"/>
+            <coverage type="block, %" value="0%   (0/48)"/>
+            <coverage type="line, %" value="0%   (0/13)"/>
 
             <method name="UserSecurityData (User): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5567,8 +5527,8 @@
             </method>
             <method name="getAuthorities (): Collection">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/22)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="block, %" value="0%   (0/23)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
             </method>
             <method name="getPassword (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5610,19 +5570,19 @@
         <srcfile name="UserTracker.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/6)"/>
-          <coverage type="block, %" value="0%   (0/29)"/>
-          <coverage type="line, %" value="0%   (0/11)"/>
+          <coverage type="block, %" value="0%   (0/41)"/>
+          <coverage type="line, %" value="0%   (0/10)"/>
 
           <class name="UserTracker">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/6)"/>
-            <coverage type="block, %" value="0%   (0/29)"/>
-            <coverage type="line, %" value="0%   (0/11)"/>
+            <coverage type="block, %" value="0%   (0/41)"/>
+            <coverage type="line, %" value="0%   (0/10)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/8)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="UserTracker (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5641,12 +5601,12 @@
             </method>
             <method name="trackLogin (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="trackLogout (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="block, %" value="0%   (0/13)"/>
               <coverage type="line, %" value="0%   (0/2)"/>
             </method>
           </class>
@@ -5740,8 +5700,8 @@
       <package name="com.softserveinc.edu.oms.web.user">
         <coverage type="class, %" value="0%   (0/8)"/>
         <coverage type="method, %" value="0%   (0/63)"/>
-        <coverage type="block, %" value="0%   (0/1210)"/>
-        <coverage type="line, %" value="0%   (0/311)"/>
+        <coverage type="block, %" value="0%   (0/1234)"/>
+        <coverage type="line, %" value="0%   (0/274)"/>
 
         <srcfile name="AbstractFormUserController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -5800,19 +5760,19 @@
         <srcfile name="AbstractListUsersController.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/18)"/>
-          <coverage type="block, %" value="0%   (0/536)"/>
-          <coverage type="line, %" value="0%   (0/136)"/>
+          <coverage type="block, %" value="0%   (0/560)"/>
+          <coverage type="line, %" value="0%   (0/113)"/>
 
           <class name="AbstractListUsersController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/18)"/>
-            <coverage type="block, %" value="0%   (0/536)"/>
-            <coverage type="line, %" value="0%   (0/136)"/>
+            <coverage type="block, %" value="0%   (0/560)"/>
+            <coverage type="line, %" value="0%   (0/113)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="AbstractListUsersController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5822,17 +5782,17 @@
             <method name="countFoundUsers (SearchModel): Long">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/37)"/>
-              <coverage type="line, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="countPages (SearchModel, ModelMap): Integer">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/52)"/>
+              <coverage type="block, %" value="0%   (0/64)"/>
               <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="definePage (SearchModel, ModelMap): Integer">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/81)"/>
-              <coverage type="line, %" value="0%   (0/15)"/>
+              <coverage type="block, %" value="0%   (0/93)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
             </method>
             <method name="defineSelectCondition (String): UserSelectWayCondition">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5847,7 +5807,7 @@
             <method name="getResponse (HttpServletRequest, ModelMap): ListRecordResponse">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/62)"/>
-              <coverage type="line, %" value="0%   (0/16)"/>
+              <coverage type="line, %" value="0%   (0/14)"/>
             </method>
             <method name="handleAjaxRequest (HttpServletRequest, ModelMap, SearchModel): ListRecordResponse">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5857,12 +5817,12 @@
             <method name="handlePage (HttpServletRequest, Locale): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="handlePageSize (HttpServletRequest): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="handleRequest (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5877,12 +5837,12 @@
             <method name="handleSort (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/24)"/>
-              <coverage type="line, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
             </method>
             <method name="processSearch (SearchModel, ModelMap): List">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/71)"/>
-              <coverage type="line, %" value="0%   (0/20)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
             </method>
             <method name="setUserService (IUserService): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5892,7 +5852,7 @@
             <method name="updateSearchModel (HttpServletRequest, SearchModel): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="validateButtons (SearchModel, Integer, Integer): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5905,13 +5865,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/3)"/>
           <coverage type="block, %" value="0%   (0/149)"/>
-          <coverage type="line, %" value="0%   (0/37)"/>
+          <coverage type="line, %" value="0%   (0/29)"/>
 
           <class name="AddEditUserValidator">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/3)"/>
             <coverage type="block, %" value="0%   (0/149)"/>
-            <coverage type="line, %" value="0%   (0/37)"/>
+            <coverage type="line, %" value="0%   (0/29)"/>
 
             <method name="AddEditUserValidator (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -5926,7 +5886,7 @@
             <method name="validate (Object, Errors): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/142)"/>
-              <coverage type="line, %" value="0%   (0/35)"/>
+              <coverage type="line, %" value="0%   (0/27)"/>
             </method>
           </class>
         </srcfile>
@@ -6036,13 +5996,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/11)"/>
           <coverage type="block, %" value="0%   (0/93)"/>
-          <coverage type="line, %" value="0%   (0/23)"/>
+          <coverage type="line, %" value="0%   (0/24)"/>
 
           <class name="ListUsersController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/11)"/>
             <coverage type="block, %" value="0%   (0/93)"/>
-            <coverage type="line, %" value="0%   (0/23)"/>
+            <coverage type="line, %" value="0%   (0/24)"/>
 
             <method name="ListUsersController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6057,7 +6017,7 @@
             <method name="handleDelete (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="handlePage (HttpServletRequest, Locale): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6105,13 +6065,13 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/11)"/>
           <coverage type="block, %" value="0%   (0/141)"/>
-          <coverage type="line, %" value="0%   (0/37)"/>
+          <coverage type="line, %" value="0%   (0/30)"/>
 
           <class name="ReportListUserController">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/11)"/>
             <coverage type="block, %" value="0%   (0/141)"/>
-            <coverage type="line, %" value="0%   (0/37)"/>
+            <coverage type="line, %" value="0%   (0/30)"/>
 
             <method name="ReportListUserController (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6156,12 +6116,12 @@
             <method name="printPDFReport (HttpServletRequest, ModelMap): String">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/71)"/>
-              <coverage type="line, %" value="0%   (0/19)"/>
+              <coverage type="line, %" value="0%   (0/13)"/>
             </method>
             <method name="publishLinks (ModelMap): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/31)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="redirectAfterAction (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6175,24 +6135,24 @@
         <coverage type="class, %" value="0%   (0/1)"/>
         <coverage type="method, %" value="0%   (0/4)"/>
         <coverage type="block, %" value="0%   (0/48)"/>
-        <coverage type="line, %" value="0%   (0/18)"/>
+        <coverage type="line, %" value="0%   (0/14)"/>
 
         <srcfile name="UserSortResolver.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
           <coverage type="block, %" value="0%   (0/48)"/>
-          <coverage type="line, %" value="0%   (0/18)"/>
+          <coverage type="line, %" value="0%   (0/14)"/>
 
           <class name="UserSortResolver">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
             <coverage type="block, %" value="0%   (0/48)"/>
-            <coverage type="line, %" value="0%   (0/18)"/>
+            <coverage type="line, %" value="0%   (0/14)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="UserSortResolver (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6207,7 +6167,7 @@
             <method name="handleSort (SearchModel, String): SearchModel">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/38)"/>
-              <coverage type="line, %" value="0%   (0/13)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
             </method>
           </class>
         </srcfile>
@@ -6246,8 +6206,8 @@
       <package name="com.softserveinc.edu.oms.web.util">
         <coverage type="class, %" value="0%   (0/4)"/>
         <coverage type="method, %" value="0%   (0/47)"/>
-        <coverage type="block, %" value="0%   (0/351)"/>
-        <coverage type="line, %" value="0%   (0/111)"/>
+        <coverage type="block, %" value="0%   (0/352)"/>
+        <coverage type="line, %" value="0%   (0/103)"/>
 
         <srcfile name="ListRecordResponse.java">
           <coverage type="class, %" value="0%   (0/1)"/>
@@ -6312,18 +6272,18 @@
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/8)"/>
           <coverage type="block, %" value="0%   (0/157)"/>
-          <coverage type="line, %" value="0%   (0/41)"/>
+          <coverage type="line, %" value="0%   (0/37)"/>
 
           <class name="PagingResolver">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/8)"/>
             <coverage type="block, %" value="0%   (0/157)"/>
-            <coverage type="line, %" value="0%   (0/41)"/>
+            <coverage type="line, %" value="0%   (0/37)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="PagingResolver (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6338,7 +6298,7 @@
             <method name="handleFirstPage (SearchModel): SearchModel">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
             <method name="handleLastPage (SearchModel): SearchModel">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6348,7 +6308,7 @@
             <method name="handleNextPage (SearchModel): SearchModel">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/35)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
             <method name="handlePaging (SearchModel, String): SearchModel">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6358,26 +6318,26 @@
             <method name="handlePreviousPage (SearchModel): SearchModel">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/8)"/>
+              <coverage type="line, %" value="0%   (0/7)"/>
             </method>
           </class>
         </srcfile>
         <srcfile name="SearchModel.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/27)"/>
-          <coverage type="block, %" value="0%   (0/153)"/>
-          <coverage type="line, %" value="0%   (0/51)"/>
+          <coverage type="block, %" value="0%   (0/154)"/>
+          <coverage type="line, %" value="0%   (0/47)"/>
 
           <class name="SearchModel">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/27)"/>
-            <coverage type="block, %" value="0%   (0/153)"/>
-            <coverage type="line, %" value="0%   (0/51)"/>
+            <coverage type="block, %" value="0%   (0/154)"/>
+            <coverage type="line, %" value="0%   (0/47)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/13)"/>
-              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="SearchModel (): void">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6506,8 +6466,8 @@
             </method>
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/36)"/>
-              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
@@ -6543,27 +6503,22 @@
       </package>
       <package name="com.softserveinc.edu.oms.web.util.pageable">
         <coverage type="class, %" value="0%   (0/7)"/>
-        <coverage type="method, %" value="0%   (0/42)"/>
-        <coverage type="block, %" value="0%   (0/752)"/>
-        <coverage type="line, %" value="0%   (0/112)"/>
+        <coverage type="method, %" value="0%   (0/40)"/>
+        <coverage type="block, %" value="0%   (0/634)"/>
+        <coverage type="line, %" value="0%   (0/98)"/>
 
         <srcfile name="PageActions.java">
           <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/9)"/>
-          <coverage type="block, %" value="0%   (0/202)"/>
-          <coverage type="line, %" value="0%   (0/18)"/>
+          <coverage type="method, %" value="0%   (0/8)"/>
+          <coverage type="block, %" value="0%   (0/149)"/>
+          <coverage type="line, %" value="0%   (0/17)"/>
 
           <class name="PageActions">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/8)"/>
-            <coverage type="block, %" value="0%   (0/169)"/>
-            <coverage type="line, %" value="0%   (0/18)"/>
+            <coverage type="method, %" value="0%   (0/7)"/>
+            <coverage type="block, %" value="0%   (0/116)"/>
+            <coverage type="line, %" value="0%   (0/17)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$util$pageable$PageActions (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/41)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/48)"/>
@@ -6596,7 +6551,7 @@
             </method>
             <method name="values (): PageActions []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
@@ -6616,14 +6571,14 @@
         <srcfile name="PageJspType.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/4)"/>
-          <coverage type="block, %" value="0%   (0/60)"/>
-          <coverage type="line, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/48)"/>
+          <coverage type="line, %" value="0%   (0/2)"/>
 
           <class name="PageJspType">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/4)"/>
-            <coverage type="block, %" value="0%   (0/60)"/>
-            <coverage type="line, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/48)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6642,32 +6597,27 @@
             </method>
             <method name="values (): PageJspType []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>
         </srcfile>
         <srcfile name="PageModel.java">
           <coverage type="class, %" value="0%   (0/2)"/>
-          <coverage type="method, %" value="0%   (0/17)"/>
-          <coverage type="block, %" value="0%   (0/306)"/>
-          <coverage type="line, %" value="0%   (0/64)"/>
+          <coverage type="method, %" value="0%   (0/16)"/>
+          <coverage type="block, %" value="0%   (0/264)"/>
+          <coverage type="line, %" value="0%   (0/55)"/>
 
           <class name="PageModel">
             <coverage type="class, %" value="0%   (0/1)"/>
-            <coverage type="method, %" value="0%   (0/16)"/>
-            <coverage type="block, %" value="0%   (0/273)"/>
-            <coverage type="line, %" value="0%   (0/64)"/>
+            <coverage type="method, %" value="0%   (0/15)"/>
+            <coverage type="block, %" value="0%   (0/231)"/>
+            <coverage type="line, %" value="0%   (0/55)"/>
 
-            <method name="$SWITCH_TABLE$com$softserveinc$edu$oms$web$util$pageable$PageActions (): int []">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/41)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
             <method name="PageModel (int, HttpServletRequest): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/34)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/9)"/>
             </method>
             <method name="getCurrentPage (): int">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6676,8 +6626,8 @@
             </method>
             <method name="getCurrentPageFromRequestParameter (HttpServletRequest): int">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/60)"/>
-              <coverage type="line, %" value="0%   (0/15)"/>
+              <coverage type="block, %" value="0%   (0/61)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
             </method>
             <method name="getListOfRequiredParameters (): List">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6692,7 +6642,7 @@
             <method name="getNumberOfPages (int, PageShowElements): int">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/29)"/>
-              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="line, %" value="0%   (0/8)"/>
             </method>
             <method name="getShowElements (): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6702,16 +6652,16 @@
             <method name="getShowElementsFromRequestParameter (HttpServletRequest): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/28)"/>
-              <coverage type="line, %" value="0%   (0/11)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
             </method>
             <method name="hasElementsToShow (): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="isCurrentPageShowElement (PageShowElements): Boolean">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="isPageActionDisabled (PageActions): Boolean">
@@ -6737,7 +6687,7 @@
             <method name="setShowElements (String): void">
               <coverage type="method, %" value="0%   (0/1)"/>
               <coverage type="block, %" value="0%   (0/6)"/>
-              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
             </method>
           </class>
           <class name="PageModel$1">
@@ -6756,14 +6706,14 @@
         <srcfile name="PageShowElements.java">
           <coverage type="class, %" value="0%   (0/1)"/>
           <coverage type="method, %" value="0%   (0/7)"/>
-          <coverage type="block, %" value="0%   (0/161)"/>
-          <coverage type="line, %" value="0%   (0/17)"/>
+          <coverage type="block, %" value="0%   (0/150)"/>
+          <coverage type="line, %" value="0%   (0/14)"/>
 
           <class name="PageShowElements">
             <coverage type="class, %" value="0%   (0/1)"/>
             <coverage type="method, %" value="0%   (0/7)"/>
-            <coverage type="block, %" value="0%   (0/161)"/>
-            <coverage type="line, %" value="0%   (0/17)"/>
+            <coverage type="block, %" value="0%   (0/150)"/>
+            <coverage type="line, %" value="0%   (0/14)"/>
 
             <method name="&lt;static initializer&gt;">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6787,8 +6737,8 @@
             </method>
             <method name="getPageShowElementsFromInteger (int): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/33)"/>
-              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/34)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="valueOf (String): PageShowElements">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -6797,7 +6747,7 @@
             </method>
             <method name="values (): PageShowElements []">
               <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/16)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
               <coverage type="line, %" value="0%   (0/1)"/>
             </method>
           </class>

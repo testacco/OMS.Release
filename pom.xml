@@ -192,6 +192,14 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
+<!--
+<dependency>
+<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>1.0.0.RC1</version>
+</dependency>
+-->
+
 		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
@@ -245,6 +253,11 @@
 		</dependency>
 	</dependencies>
 	<repositories>
+		<!-- for connecting to nexus -->
+		<repository>
+			<id>nexus</id>
+			<url>https://192.168.103.179:8081/repository/</url>
+		</repository>
 		<!-- For testing against latest Spring snapshots -->
 		<repository>
 			<id>org.springframework.maven.snapshot</id>
