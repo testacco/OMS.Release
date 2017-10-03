@@ -1,0 +1,58 @@
+[2017-10-02 16:29:00,256]DEBUG 24971[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table OrderItems drop foreign key FKA2B1AD32A6376397
+[2017-10-02 16:29:00,614]DEBUG 25329[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table OrderItems drop foreign key FKA2B1AD3262E1ABF7
+[2017-10-02 16:29:00,616]DEBUG 25331[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/OrderItems' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:00,616]DEBUG 25331[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table OrderItems drop foreign key FKA2B1AD32A6376397
+[2017-10-02 16:29:00,957]DEBUG 25672[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table OrderItems drop foreign key FKA2B1AD32BCDB3C97
+[2017-10-02 16:29:01,116]DEBUG 25831[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table OrderItems drop foreign key FKA2B1AD32A6376397
+[2017-10-02 16:29:01,116]DEBUG 25831[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/OrderItems' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:01,116]DEBUG 25831[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table OrderItems drop foreign key FKA2B1AD32BCDB3C97
+[2017-10-02 16:29:01,484]DEBUG 26199[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Orders drop foreign key FK8D444F05990DB877
+[2017-10-02 16:29:01,734]DEBUG 26449[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table OrderItems drop foreign key FKA2B1AD32BCDB3C97
+[2017-10-02 16:29:01,734]DEBUG 26449[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/OrderItems' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:01,734]DEBUG 26449[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Orders drop foreign key FK8D444F05990DB877
+[2017-10-02 16:29:01,784]DEBUG 26499[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Orders drop foreign key FK8D444F05C0F431DD
+[2017-10-02 16:29:01,918]DEBUG 26633[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table Orders drop foreign key FK8D444F05990DB877
+[2017-10-02 16:29:01,918]DEBUG 26633[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/Orders' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:01,918]DEBUG 26633[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Orders drop foreign key FK8D444F05C0F431DD
+[2017-10-02 16:29:02,085]DEBUG 26800[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Orders drop foreign key FK8D444F05F161465
+[2017-10-02 16:29:02,235]DEBUG 26950[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table Orders drop foreign key FK8D444F05C0F431DD
+[2017-10-02 16:29:02,235]DEBUG 26950[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/Orders' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:02,236]DEBUG 26951[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Orders drop foreign key FK8D444F05F161465
+[2017-10-02 16:29:02,461]DEBUG 27176[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Users drop foreign key FK4E39DE83D05058F
+[2017-10-02 16:29:03,412]DEBUG 28127[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Users drop foreign key FK4E39DE89AEF426F
+[2017-10-02 16:29:03,471]DEBUG 28186[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table Orders drop foreign key FK8D444F05F161465
+[2017-10-02 16:29:03,471]DEBUG 28186[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/Orders' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:03,472]DEBUG 28187[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Users drop foreign key FK4E39DE83D05058F
+[2017-10-02 16:29:03,788]DEBUG 28503[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Users drop foreign key FK4E39DE8FEAD4DCF
+[2017-10-02 16:29:03,937]DEBUG 28652[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table Users drop foreign key FK4E39DE83D05058F
+[2017-10-02 16:29:03,938]DEBUG 28653[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/Users' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:03,938]DEBUG 28653[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Users drop foreign key FK4E39DE89AEF426F
+[2017-10-02 16:29:04,147]DEBUG 28862[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists CardType
+[2017-10-02 16:29:04,264]DEBUG 28979[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists CustomerTypes
+[2017-10-02 16:29:04,355]DEBUG 29070[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Dimensions
+[2017-10-02 16:29:04,422]DEBUG 29137[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists OrderItems
+[2017-10-02 16:29:04,480]DEBUG 29195[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table Users drop foreign key FK4E39DE89AEF426F
+[2017-10-02 16:29:04,480]DEBUG 29195[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/Users' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:04,481]DEBUG 29196[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - alter table Users drop foreign key FK4E39DE8FEAD4DCF
+[2017-10-02 16:29:04,514]DEBUG 29229[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists OrderStatuses
+[2017-10-02 16:29:04,589]DEBUG 29304[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Orders
+[2017-10-02 16:29:04,656]DEBUG 29371[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Products
+[2017-10-02 16:29:04,689]DEBUG 29404[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:400) - Unsuccessful: alter table Users drop foreign key FK4E39DE8FEAD4DCF
+[2017-10-02 16:29:04,689]DEBUG 29404[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:401) - Error on rename of './test1/Users' to './test1/#sql2-57e-34' (errno: 152)
+[2017-10-02 16:29:04,689]DEBUG 29404[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists CardType
+[2017-10-02 16:29:04,690]DEBUG 29405[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists CustomerTypes
+[2017-10-02 16:29:04,691]DEBUG 29406[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Dimensions
+[2017-10-02 16:29:04,692]DEBUG 29407[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists OrderItems
+[2017-10-02 16:29:04,693]DEBUG 29408[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists OrderStatuses
+[2017-10-02 16:29:04,694]DEBUG 29409[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Orders
+[2017-10-02 16:29:04,694]DEBUG 29409[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Products
+[2017-10-02 16:29:04,723]DEBUG 29438[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Regions
+[2017-10-02 16:29:04,723]DEBUG 29438[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Regions
+[2017-10-02 16:29:04,806]DEBUG 29521[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Roles
+[2017-10-02 16:29:04,807]DEBUG 29522[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Roles
+[2017-10-02 16:29:04,873]DEBUG 29588[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Users
+[2017-10-02 16:29:04,873]DEBUG 29588[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:415) - drop table if exists Users
+[2017-10-02 16:29:04,906] INFO 29621[Thread-1] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:281) - schema export complete
+[2017-10-02 16:29:04,907] INFO 29622[Thread-0] - org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:281) - schema export complete
+[2017-10-02 16:29:04,907] INFO 29622[Thread-1] - org.hibernate.connection.DriverManagerConnectionProvider.close(DriverManagerConnectionProvider.java:170) - cleaning up connection pool: jdbc:mysql://localhost:3306/test1
+[2017-10-02 16:29:04,907] INFO 29622[Thread-0] - org.hibernate.connection.DriverManagerConnectionProvider.close(DriverManagerConnectionProvider.java:170) - cleaning up connection pool: jdbc:mysql://localhost:3306/test1
