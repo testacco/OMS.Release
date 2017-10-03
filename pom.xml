@@ -458,11 +458,13 @@
 	<version>2.5.3</version>
 	<configuration>
 		<connectionType>connection</connectionType>
+<!--
 	<checkModificationExcludes>
 		<checkModificationExclude>pom.xml</checkModificationExclude>
 <checkModificationExclude>src/main/webapp/WEB-INF/hibernate.cfg.xml</checkModificationExclude>
 <checkModificationExclude>src/test/resources/hibernate_test.cfg.xml</checkModificationExclude>
 	</checkModificationExcludes>
+-->
 	</configuration>
 </plugin>				
 		</plugins>
