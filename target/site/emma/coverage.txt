@@ -1,9 +1,9 @@
-[EMMA v2.0.5312 report, generated Tue Oct 03 13:47:22 EEST 2017]
+[EMMA v2.0.5312 report, generated Tue Oct 03 16:02:20 EEST 2017]
 -------------------------------------------------------------------------------
 OVERALL COVERAGE SUMMARY:
 
 [class, %]	[method, %]	[block, %]	[line, %]	[name]
-33%  (41/123)!	28%  (279/990)!	26%  (3639/14146)!	25%  (770.1/3022)!	all classes
+33%  (41/123)!	28%  (278/990)!	26%  (3633/14146)!	25%  (769.1/3022)!	all classes
 
 OVERALL STATS SUMMARY:
 
@@ -17,7 +17,7 @@ COVERAGE BREAKDOWN BY PACKAGE:
 
 [class, %]	[method, %]	[block, %]	[line, %]	[name]
 100% (1/1)	100% (1/1)	100% (3/3)	100% (1/1)	com.softserveinc.edu.oms.domain
-100% (10/10)	74%  (112/151)	63%  (620/981)!	71%  (240/339)!	com.softserveinc.edu.oms.domain.entities
+100% (10/10)	74%  (111/151)	63%  (614/981)!	71%  (239/339)!	com.softserveinc.edu.oms.domain.entities
 0%   (0/1)!	0%   (0/4)!	0%   (0/270)!	0%   (0/64)!	com.softserveinc.edu.oms.domain.utils
 100% (2/2)	86%  (25/29)	74%  (403/542)!	75%  (97.7/130)!	com.softserveinc.edu.oms.persistence.dao
 100% (11/11)	71%  (61/86)	63%  (1215/1917)!	60%  (174.6/292)!	com.softserveinc.edu.oms.persistence.dao.concrete

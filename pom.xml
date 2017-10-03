@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.softserveinc</groupId>
 	<artifactId>edu</artifactId>
 	<name>OMS</name>
 	<packaging>war</packaging>
-	<version>1.0.0-BUILD</version>
+	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.6</java-version>
 		<org.springframework-version>3.0.5.RELEASE</org.springframework-version>
@@ -28,15 +29,6 @@
       <url>http://192.168.103.179:8081/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
-
-<scm>
-	<url>/home/mary/Documents/backup/OMS.Release</url>
-	<connection>/home/mary/Documents/backup/OMS.Release</connection>
-	<developerConnection>/home/mary/Documents/backup/OMS.Release</developerConnection>
-	<tag>test</tag>
-</scm>
-
-
 
 	<dependencies>
 		<!-- Spring -->
@@ -267,7 +259,6 @@
 			<url>https://192.168.103.179:8081/repository/</url>
 		</repository>
 		<!-- For testing against latest Spring snapshots -->
-
 		<repository>
 			<id>org.springframework.maven.snapshot</id>
 			<name>Spring Maven Snapshot Repository</name>
@@ -362,7 +353,7 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
+			<!--plugin>
 				<groupId>org.sonatype.maven.plugin</groupId>
 					<artifactId>emma-maven-plugin</artifactId>
 					<version>1.2</version>
@@ -395,20 +386,22 @@
 							</goals>
 						</execution>
 					</executions>
-			</plugin>
-<plugin>
-    <groupId>jacoco</groupId>
-    <artifactId>jacoco-maven-plugin</artifactId>
-    <version>0.7.10-SNAPSHOT</version>
-</plugin>
+			</plugin-->
+
 			
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
     <version>2.20.1</version>
-    <configuration>
+    <!--configuration>
         <classesDirectory>${project.build.directory}/generated-classes/emma/classes</classesDirectory>
-    </configuration>
+    </configuration-->
+</plugin>
+
+<plugin>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.7.10</version>
 </plugin>
 
 <!-- for nexus deploying-->
@@ -456,22 +449,16 @@
 -->
 	</configuration>
 </plugin>
-	
+
 <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-release-plugin</artifactId>
 	<version>2.5.3</version>
 	<configuration>
 		<connectionType>connection</connectionType>
-<!--
-	<checkModificationExcludes>
-		<checkModificationExclude>pom.xml</checkModificationExclude>
-<checkModificationExclude>src/main/webapp/WEB-INF/hibernate.cfg.xml</checkModificationExclude>
-<checkModificationExclude>src/test/resources/hibernate_test.cfg.xml</checkModificationExclude>
-	</checkModificationExcludes>
--->
 	</configuration>
-</plugin>				
+</plugin>	
+				
 		</plugins>
 	</build>
 </project>

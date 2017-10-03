@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Oct 03 13:47:22 EEST 2017 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Tue Oct 03 16:02:20 EEST 2017 -->
 
 <report>
   <stats>
@@ -11,9 +11,9 @@
   <data>
     <all name="all classes">
       <coverage type="class, %" value="33%  (41/123)"/>
-      <coverage type="method, %" value="28%  (279/990)"/>
-      <coverage type="block, %" value="26%  (3639/14146)"/>
-      <coverage type="line, %" value="25%  (770.1/3022)"/>
+      <coverage type="method, %" value="28%  (278/990)"/>
+      <coverage type="block, %" value="26%  (3633/14146)"/>
+      <coverage type="line, %" value="25%  (769.1/3022)"/>
 
       <package name="com.softserveinc.edu.oms.domain">
         <coverage type="class, %" value="100% (1/1)"/>
@@ -43,9 +43,9 @@
       </package>
       <package name="com.softserveinc.edu.oms.domain.entities">
         <coverage type="class, %" value="100% (10/10)"/>
-        <coverage type="method, %" value="74%  (112/151)"/>
-        <coverage type="block, %" value="63%  (620/981)"/>
-        <coverage type="line, %" value="71%  (240/339)"/>
+        <coverage type="method, %" value="74%  (111/151)"/>
+        <coverage type="block, %" value="63%  (614/981)"/>
+        <coverage type="line, %" value="71%  (239/339)"/>
 
         <srcfile name="CreditCardType.java">
           <coverage type="class, %" value="100% (1/1)"/>
@@ -741,15 +741,15 @@
         </srcfile>
         <srcfile name="Role.java">
           <coverage type="class, %" value="100% (1/1)"/>
-          <coverage type="method, %" value="70%  (7/10)"/>
-          <coverage type="block, %" value="54%  (49/91)"/>
-          <coverage type="line, %" value="55%  (17/31)"/>
+          <coverage type="method, %" value="60%  (6/10)"/>
+          <coverage type="block, %" value="47%  (43/91)"/>
+          <coverage type="line, %" value="52%  (16/31)"/>
 
           <class name="Role">
             <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="70%  (7/10)"/>
-            <coverage type="block, %" value="54%  (49/91)"/>
-            <coverage type="line, %" value="55%  (17/31)"/>
+            <coverage type="method, %" value="60%  (6/10)"/>
+            <coverage type="block, %" value="47%  (43/91)"/>
+            <coverage type="line, %" value="52%  (16/31)"/>
 
             <method name="Role (): void">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -762,9 +762,9 @@
               <coverage type="line, %" value="0%   (0/4)"/>
             </method>
             <method name="compareTo (Role): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
