@@ -31,8 +31,8 @@
 
 <scm>
 	<url>/home/mary/Documents/backup/OMS.Release</url>
-	<connection>scm:git:/home/mary/Documents/backup/OMS.Release</connection>
-	<developerConnection>scm:git:/home/mary/Documents/backup/OMS.Release</developerConnection>
+	<connection>/home/mary/Documents/backup/OMS.Release</connection>
+	<developerConnection>/home/mary/Documents/backup/OMS.Release</developerConnection>
 	<tag>test</tag>
 </scm>
 
