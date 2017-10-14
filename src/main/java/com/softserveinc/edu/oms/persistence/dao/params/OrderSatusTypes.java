@@ -1,8 +1,6 @@
 //
 // OrderSatusTypes
 //
-// 9 вер. 2011
-//
 package com.softserveinc.edu.oms.persistence.dao.params;
 
 /**

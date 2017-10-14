@@ -1,7 +1,6 @@
 //
 // TempOrderItemTest
 //
-// 12 вер. 2011
 //
 package com.softserveinc.edu.oms.web.orderitem.model.temporarydata.beans;
 

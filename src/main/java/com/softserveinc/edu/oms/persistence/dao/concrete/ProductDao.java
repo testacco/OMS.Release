@@ -3,8 +3,6 @@
  *
  * version - v1.0
  *
- * 9 лип. 2011 - 21:52:56 
- *
  * (c) sh.muro[at]gmail.com
  *
  */

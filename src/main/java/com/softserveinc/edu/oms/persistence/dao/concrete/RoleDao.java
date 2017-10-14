@@ -2,8 +2,7 @@
  * RoleDAO.java 
  *
  * version - v1.0
- *
- * 9 лип. 2011 - 15:32:46
+
  *
  * (c) marko
  *

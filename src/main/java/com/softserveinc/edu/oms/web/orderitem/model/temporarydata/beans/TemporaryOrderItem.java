@@ -1,16 +1,11 @@
 //
 // TemporaryOrderItem
 //
-// 12 вер. 2011
 //
 package com.softserveinc.edu.oms.web.orderitem.model.temporarydata.beans;
 
 import com.softserveinc.edu.oms.domain.entities.OrderItem;
 
-/**
- * @author Ivanka
- * 
- */
 /**
  * @author Ivanka
  * 

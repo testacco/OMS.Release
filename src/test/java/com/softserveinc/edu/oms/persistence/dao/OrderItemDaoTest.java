@@ -1,7 +1,6 @@
 /**
  * OrderItemTest
  *
- * 11 лип. 2011
  */
 
 package com.softserveinc.edu.oms.persistence.dao;

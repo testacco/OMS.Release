@@ -1,7 +1,6 @@
 //
 // OrderItemService
 //
-// 20 ρεπο. 2011
 //
 package com.softserveinc.edu.oms.service.implementation;
 

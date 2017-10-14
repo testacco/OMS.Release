@@ -1,7 +1,6 @@
 //
 // OrderItemDBController
 //
-// 31 ρεπο. 2011
 //
 package com.softserveinc.edu.oms.web.orderitem;
 
